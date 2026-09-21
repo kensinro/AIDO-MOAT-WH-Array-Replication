@@ -1,0 +1,351 @@
+{
+  "predictions": [
+    {
+      "case_id": "P3B-H7Q2",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N20_SPECTRAL"
+      ],
+      "governance_action": "RECOMMEND_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score",
+        "fusion_consistency",
+        "spectral_purity"
+      ],
+      "repair_targets": [
+        "N20_SPECTRAL"
+      ],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "STRUCTURAL_SINGLE_SOURCE"
+    },
+    {
+      "case_id": "P3B-C4M9",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N30_TRANSIENT"
+      ],
+      "governance_action": "RECOMMEND_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score",
+        "transient_metric"
+      ],
+      "repair_targets": [
+        "N30_TRANSIENT"
+      ],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "STRUCTURAL_SINGLE_SOURCE"
+    },
+    {
+      "case_id": "P3B-V8K1",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N10_CENTER"
+      ],
+      "governance_action": "RECOMMEND_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "center_residual",
+        "decision_score"
+      ],
+      "repair_targets": [
+        "N10_CENTER"
+      ],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "STRUCTURAL_SINGLE_SOURCE"
+    },
+    {
+      "case_id": "P3B-R2D6",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N40_FUSE"
+      ],
+      "governance_action": "RECOMMEND_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score",
+        "fusion_consistency"
+      ],
+      "repair_targets": [
+        "N40_FUSE"
+      ],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "STRUCTURAL_SINGLE_SOURCE"
+    },
+    {
+      "case_id": "P3B-Z5N3",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N20_SPECTRAL"
+      ],
+      "governance_action": "RECOMMEND_ONLY",
+      "inspection_count": 1,
+      "rejected_observables": [
+        "decision_score",
+        "fusion_consistency"
+      ],
+      "repair_targets": [
+        "N20_SPECTRAL"
+      ],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "EQUIFINAL_RESOLVED_SINGLE"
+    },
+    {
+      "case_id": "P3B-A9T4",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N30_TRANSIENT"
+      ],
+      "governance_action": "RECOMMEND_ONLY",
+      "inspection_count": 1,
+      "rejected_observables": [
+        "decision_score",
+        "fusion_consistency"
+      ],
+      "repair_targets": [
+        "N30_TRANSIENT"
+      ],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "EQUIFINAL_RESOLVED_SINGLE"
+    },
+    {
+      "case_id": "P3B-J3W8",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N20_SPECTRAL"
+      ],
+      "governance_action": "RECOMMEND_ONLY",
+      "inspection_count": 1,
+      "rejected_observables": [
+        "decision_score",
+        "fusion_consistency"
+      ],
+      "repair_targets": [
+        "N20_SPECTRAL"
+      ],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "EQUIFINAL_RESOLVED_SINGLE"
+    },
+    {
+      "case_id": "P3B-M6P1",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N30_TRANSIENT"
+      ],
+      "governance_action": "RECOMMEND_ONLY",
+      "inspection_count": 1,
+      "rejected_observables": [
+        "decision_score",
+        "fusion_consistency"
+      ],
+      "repair_targets": [
+        "N30_TRANSIENT"
+      ],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "EQUIFINAL_RESOLVED_SINGLE"
+    },
+    {
+      "case_id": "P3B-X2L7",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score"
+      ],
+      "repair_targets": [],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "PATH_CUMULATIVE"
+    },
+    {
+      "case_id": "P3B-Q8F5",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score"
+      ],
+      "repair_targets": [],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "PATH_CUMULATIVE"
+    },
+    {
+      "case_id": "P3B-B4R9",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score"
+      ],
+      "repair_targets": [],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "PATH_CUMULATIVE"
+    },
+    {
+      "case_id": "P3B-T1C6",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score"
+      ],
+      "repair_targets": [],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "PATH_CUMULATIVE"
+    },
+    {
+      "case_id": "P3B-K7V3",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N00_CAPTURE",
+        "N30_TRANSIENT"
+      ],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "capture_rms",
+        "transient_metric"
+      ],
+      "repair_targets": [],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "COMPENSATED_FAILURE"
+    },
+    {
+      "case_id": "P3B-D5X8",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N10_CENTER",
+        "N20_SPECTRAL"
+      ],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "center_residual",
+        "spectral_purity"
+      ],
+      "repair_targets": [],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "COMPENSATED_FAILURE"
+    },
+    {
+      "case_id": "P3B-N2J4",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N20_SPECTRAL",
+        "N40_FUSE"
+      ],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "fusion_consistency",
+        "spectral_purity"
+      ],
+      "repair_targets": [],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "COMPENSATED_FAILURE"
+    },
+    {
+      "case_id": "P3B-W9M6",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [
+        "N30_TRANSIENT",
+        "N40_FUSE"
+      ],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "fusion_consistency",
+        "transient_metric"
+      ],
+      "repair_targets": [],
+      "resolution_state": "RESOLVED",
+      "topology_disposition": "COMPENSATED_FAILURE"
+    },
+    {
+      "case_id": "P3B-F3A7",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [],
+      "governance_action": "HUMAN_GATE_REQUIRED",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score",
+        "fusion_consistency"
+      ],
+      "repair_targets": [],
+      "resolution_state": "PARTIALLY_RESOLVED",
+      "topology_disposition": "NEW_TOPOLOGY_CANDIDATE"
+    },
+    {
+      "case_id": "P3B-L6Q2",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [],
+      "governance_action": "HUMAN_GATE_REQUIRED",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score",
+        "fusion_consistency"
+      ],
+      "repair_targets": [],
+      "resolution_state": "PARTIALLY_RESOLVED",
+      "topology_disposition": "NEW_TOPOLOGY_CANDIDATE"
+    },
+    {
+      "case_id": "P3B-S8K5",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score"
+      ],
+      "repair_targets": [],
+      "resolution_state": "UNRESOLVED",
+      "topology_disposition": "UNDERDETERMINED"
+    },
+    {
+      "case_id": "P3B-G4T1",
+      "comparator_id": "WH",
+      "detection_disposition": "FAIL",
+      "diagnosed_fault_set": [],
+      "governance_action": "HOLD_ONLY",
+      "inspection_count": 0,
+      "rejected_observables": [
+        "decision_score"
+      ],
+      "repair_targets": [],
+      "resolution_state": "UNRESOLVED",
+      "topology_disposition": "UNDERDETERMINED"
+    }
+  ]
+}
