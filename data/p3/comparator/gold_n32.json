@@ -1,0 +1,414 @@
+{
+  "cases": [
+    {
+      "case_id": "P3AR-C01",
+      "design_family": "CLEAN_HEALTHY",
+      "truth_action": "PROCEED",
+      "truth_fault": false,
+      "truth_fault_set": [],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "CLEAN"
+    },
+    {
+      "case_id": "P3AR-C02",
+      "design_family": "CLEAN_HEALTHY",
+      "truth_action": "PROCEED",
+      "truth_fault": false,
+      "truth_fault_set": [],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "CLEAN"
+    },
+    {
+      "case_id": "P3AR-C03",
+      "design_family": "CLEAN_HEALTHY",
+      "truth_action": "PROCEED",
+      "truth_fault": false,
+      "truth_fault_set": [],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "CLEAN"
+    },
+    {
+      "case_id": "P3AR-C04",
+      "design_family": "CLEAN_HEALTHY",
+      "truth_action": "PROCEED",
+      "truth_fault": false,
+      "truth_fault_set": [],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "CLEAN"
+    },
+    {
+      "case_id": "P3AR-S01",
+      "design_family": "SIMPLE_LOCAL_FAULT",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M02_TRANSFORM"
+      ],
+      "truth_repair_targets": [
+        "M02_TRANSFORM"
+      ],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "SINGLE_SOURCE"
+    },
+    {
+      "case_id": "P3AR-S02",
+      "design_family": "SIMPLE_LOCAL_FAULT",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M04_REPORT"
+      ],
+      "truth_repair_targets": [
+        "M04_REPORT"
+      ],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "SINGLE_SOURCE"
+    },
+    {
+      "case_id": "P3AR-S03",
+      "design_family": "SIMPLE_LOCAL_FAULT",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M01_INGEST"
+      ],
+      "truth_repair_targets": [
+        "M01_INGEST"
+      ],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "SINGLE_SOURCE"
+    },
+    {
+      "case_id": "P3AR-S04",
+      "design_family": "SIMPLE_LOCAL_FAULT",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M03_INFER"
+      ],
+      "truth_repair_targets": [
+        "M03_INFER"
+      ],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "SINGLE_SOURCE"
+    },
+    {
+      "case_id": "P3AR-E01",
+      "design_family": "EQUIFINAL_RESOLVABLE",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M03_INFER"
+      ],
+      "truth_repair_targets": [
+        "M03_INFER"
+      ],
+      "truth_resolution_entitlement": "INSPECTION_REQUIRED",
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE"
+    },
+    {
+      "case_id": "P3AR-E02",
+      "design_family": "EQUIFINAL_RESOLVABLE",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M01_INGEST"
+      ],
+      "truth_repair_targets": [
+        "M01_INGEST"
+      ],
+      "truth_resolution_entitlement": "INSPECTION_REQUIRED",
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE"
+    },
+    {
+      "case_id": "P3AR-E03",
+      "design_family": "EQUIFINAL_RESOLVABLE",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M04_REPORT"
+      ],
+      "truth_repair_targets": [
+        "M04_REPORT"
+      ],
+      "truth_resolution_entitlement": "INSPECTION_REQUIRED",
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE"
+    },
+    {
+      "case_id": "P3AR-E04",
+      "design_family": "EQUIFINAL_RESOLVABLE",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M02_TRANSFORM"
+      ],
+      "truth_repair_targets": [
+        "M02_TRANSFORM"
+      ],
+      "truth_resolution_entitlement": "INSPECTION_REQUIRED",
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE"
+    },
+    {
+      "case_id": "P3AR-M01",
+      "design_family": "MULTI_SOURCE_LOCAL_PASS_GLOBAL_FAIL",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M02_TRANSFORM",
+        "M03_INFER"
+      ],
+      "truth_repair_targets": [
+        "M02_TRANSFORM",
+        "M03_INFER"
+      ],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "MULTI_SOURCE_INDEPENDENT"
+    },
+    {
+      "case_id": "P3AR-M02",
+      "design_family": "MULTI_SOURCE_LOCAL_PASS_GLOBAL_FAIL",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M01_INGEST",
+        "M04_REPORT"
+      ],
+      "truth_repair_targets": [
+        "M01_INGEST",
+        "M04_REPORT"
+      ],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "MULTI_SOURCE_INDEPENDENT"
+    },
+    {
+      "case_id": "P3AR-M03",
+      "design_family": "MULTI_SOURCE_LOCAL_PASS_GLOBAL_FAIL",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M01_INGEST",
+        "M03_INFER"
+      ],
+      "truth_repair_targets": [
+        "M01_INGEST",
+        "M03_INFER"
+      ],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "MULTI_SOURCE_INDEPENDENT"
+    },
+    {
+      "case_id": "P3AR-M04",
+      "design_family": "MULTI_SOURCE_LOCAL_PASS_GLOBAL_FAIL",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M02_TRANSFORM",
+        "M04_REPORT"
+      ],
+      "truth_repair_targets": [
+        "M02_TRANSFORM",
+        "M04_REPORT"
+      ],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "MULTI_SOURCE_INDEPENDENT"
+    },
+    {
+      "case_id": "P3AR-P01",
+      "design_family": "CUMULATIVE_PATH_LOCAL_PASS_GLOBAL_FAIL",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "CUMULATIVE_PATH"
+    },
+    {
+      "case_id": "P3AR-P02",
+      "design_family": "CUMULATIVE_PATH_LOCAL_PASS_GLOBAL_FAIL",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "CUMULATIVE_PATH"
+    },
+    {
+      "case_id": "P3AR-P03",
+      "design_family": "CUMULATIVE_PATH_LOCAL_PASS_GLOBAL_FAIL",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "CUMULATIVE_PATH"
+    },
+    {
+      "case_id": "P3AR-P04",
+      "design_family": "CUMULATIVE_PATH_LOCAL_PASS_GLOBAL_FAIL",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "CUMULATIVE_PATH"
+    },
+    {
+      "case_id": "P3AR-K01",
+      "design_family": "COMPENSATED_MASKED_FAILURE",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M01_INGEST",
+        "M04_REPORT"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "COMPENSATED_FAILURE"
+    },
+    {
+      "case_id": "P3AR-K02",
+      "design_family": "COMPENSATED_MASKED_FAILURE",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M02_TRANSFORM",
+        "M03_INFER"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "COMPENSATED_FAILURE"
+    },
+    {
+      "case_id": "P3AR-K03",
+      "design_family": "COMPENSATED_MASKED_FAILURE",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M01_INGEST",
+        "M02_TRANSFORM"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "COMPENSATED_FAILURE"
+    },
+    {
+      "case_id": "P3AR-K04",
+      "design_family": "COMPENSATED_MASKED_FAILURE",
+      "truth_action": "DIAGNOSE",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M03_INFER",
+        "M04_REPORT"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "FULL",
+      "truth_topology": "COMPENSATED_FAILURE"
+    },
+    {
+      "case_id": "P3AR-N01",
+      "design_family": "TRUE_NOVEL_TOPOLOGY",
+      "truth_action": "HOLD_FOR_GOVERNED_CHARACTERIZATION",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M01_INGEST",
+        "M03_INFER"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "TOPOLOGY_CANDIDATE_ONLY",
+      "truth_topology": "NEW_TOPOLOGY_CANDIDATE"
+    },
+    {
+      "case_id": "P3AR-N02",
+      "design_family": "TRUE_NOVEL_TOPOLOGY",
+      "truth_action": "HOLD_FOR_GOVERNED_CHARACTERIZATION",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M02_TRANSFORM",
+        "M04_REPORT"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "TOPOLOGY_CANDIDATE_ONLY",
+      "truth_topology": "NEW_TOPOLOGY_CANDIDATE"
+    },
+    {
+      "case_id": "P3AR-N03",
+      "design_family": "TRUE_NOVEL_TOPOLOGY",
+      "truth_action": "HOLD_FOR_GOVERNED_CHARACTERIZATION",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M01_INGEST",
+        "M02_TRANSFORM"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "TOPOLOGY_CANDIDATE_ONLY",
+      "truth_topology": "NEW_TOPOLOGY_CANDIDATE"
+    },
+    {
+      "case_id": "P3AR-N04",
+      "design_family": "TRUE_NOVEL_TOPOLOGY",
+      "truth_action": "HOLD_FOR_GOVERNED_CHARACTERIZATION",
+      "truth_fault": true,
+      "truth_fault_set": [
+        "M03_INFER",
+        "M04_REPORT"
+      ],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "TOPOLOGY_CANDIDATE_ONLY",
+      "truth_topology": "NEW_TOPOLOGY_CANDIDATE"
+    },
+    {
+      "case_id": "P3AR-U01",
+      "design_family": "UNDERDETERMINED",
+      "truth_action": "ABSTAIN",
+      "truth_fault": true,
+      "truth_fault_set": [],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "ABSTAIN_SPECIFIC_CAUSE",
+      "truth_topology": "UNDERDETERMINED"
+    },
+    {
+      "case_id": "P3AR-U02",
+      "design_family": "UNDERDETERMINED",
+      "truth_action": "ABSTAIN",
+      "truth_fault": true,
+      "truth_fault_set": [],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "ABSTAIN_SPECIFIC_CAUSE",
+      "truth_topology": "UNDERDETERMINED"
+    },
+    {
+      "case_id": "P3AR-U03",
+      "design_family": "UNDERDETERMINED",
+      "truth_action": "ABSTAIN",
+      "truth_fault": true,
+      "truth_fault_set": [],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "ABSTAIN_SPECIFIC_CAUSE",
+      "truth_topology": "UNDERDETERMINED"
+    },
+    {
+      "case_id": "P3AR-U04",
+      "design_family": "UNDERDETERMINED",
+      "truth_action": "ABSTAIN",
+      "truth_fault": true,
+      "truth_fault_set": [],
+      "truth_repair_targets": [],
+      "truth_resolution_entitlement": "ABSTAIN_SPECIFIC_CAUSE",
+      "truth_topology": "UNDERDETERMINED"
+    }
+  ],
+  "panel_id": "P3A2R_N32_FRESH",
+  "sealed_for_scoring_only": true
+}
