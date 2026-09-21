@@ -1,0 +1,49 @@
+name: reproducibility
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[test]"
+      - name: Reproduce frozen baseline
+        run: python -m wh_reference reproduce --data-root data --output artifacts
+      - name: Run public regression tests
+        run: pytest -q
+
+  array-governed-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify governed artifact identities
+        run: python scripts/verify_array_v0_2_0.py
+      - name: Recompute Protocol 4 endpoints
+        run: python scripts/recompute_p4_endpoints.py
+      - name: Re-run reconstruction checks
+        run: |
+          rm -rf /tmp/wh_exec /tmp/wh_ind
+          mkdir -p /tmp/wh_exec /tmp/wh_ind
+          sudo mkdir -p /mnt/data
+          sudo chmod 777 /mnt/data
+          unzip -q reconstruction/WH_JSS_EXECUTABLE_RECONSTRUCTION_V0.2.zip -d /tmp/wh_exec
+          unzip -q reconstruction/WH_JSS_INDEPENDENT_RECONSTRUCTION_PACKET_V0.1.zip -d /tmp/wh_ind
+          (cd /tmp/wh_exec/WH_JSS_EXECUTABLE_RECONSTRUCTION_V0.2 && python test_wh_jss_reference_adjudicator_v0_2.py)
+          (cd /tmp/wh_ind/WH_JSS_INDEPENDENT_RECONSTRUCTION_PACKET_V0.1 && python test_input_normalizer.py)
