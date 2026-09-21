@@ -1,0 +1,546 @@
+[
+  {
+    "case_id": "P3B-7K2M",
+    "observation_summary": {
+      "capture_rms": {
+        "value": 0.7146209062389368,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "center_residual": {
+        "value": 0.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "spectral_purity": {
+        "value": 0.9938788914283493,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "transient_metric": {
+        "value": 0.7149274145638659,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "fusion_consistency": {
+        "value": 0.9975515565713398,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "decision_score": {
+        "value": 0.9947970577140969,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      }
+    },
+    "acceptance_assessment": {
+      "capture_rms": {
+        "value": 0.7146209062389368,
+        "accepted": true
+      },
+      "center_residual": {
+        "value": 0.0,
+        "accepted": true
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "accepted": true
+      },
+      "spectral_purity": {
+        "value": 0.9938788914283493,
+        "accepted": true
+      },
+      "transient_metric": {
+        "value": 0.7149274145638659,
+        "accepted": true
+      },
+      "fusion_consistency": {
+        "value": 0.9975515565713398,
+        "accepted": true
+      },
+      "decision_score": {
+        "value": 0.9947970577140969,
+        "accepted": true
+      }
+    },
+    "disposition": "CLEAN",
+    "failure_detected": false,
+    "rejected_observables": [],
+    "repair_recommendation": null,
+    "governance_state": "NO_STATE_CHANGE_AUTHORIZED"
+  },
+  {
+    "case_id": "P3B-Q4VX",
+    "observation_summary": {
+      "capture_rms": {
+        "value": 0.7125914105592068,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "center_residual": {
+        "value": 6.938893903907228e-18,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "spectral_purity": {
+        "value": 0.9948857439215453,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "transient_metric": {
+        "value": 0.718165973363272,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "fusion_consistency": {
+        "value": 0.9979542975686181,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "decision_score": {
+        "value": 0.9956528823333135,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      }
+    },
+    "acceptance_assessment": {
+      "capture_rms": {
+        "value": 0.7125914105592068,
+        "accepted": true
+      },
+      "center_residual": {
+        "value": 6.938893903907228e-18,
+        "accepted": true
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "accepted": true
+      },
+      "spectral_purity": {
+        "value": 0.9948857439215453,
+        "accepted": true
+      },
+      "transient_metric": {
+        "value": 0.718165973363272,
+        "accepted": true
+      },
+      "fusion_consistency": {
+        "value": 0.9979542975686181,
+        "accepted": true
+      },
+      "decision_score": {
+        "value": 0.9956528823333135,
+        "accepted": true
+      }
+    },
+    "disposition": "CLEAN",
+    "failure_detected": false,
+    "rejected_observables": [],
+    "repair_recommendation": null,
+    "governance_state": "NO_STATE_CHANGE_AUTHORIZED"
+  },
+  {
+    "case_id": "P3B-2N8R",
+    "observation_summary": {
+      "capture_rms": {
+        "value": 0.7170273650431386,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "center_residual": {
+        "value": 0.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "spectral_purity": {
+        "value": 0.9942801405579333,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "transient_metric": {
+        "value": 0.6753660910373583,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "fusion_consistency": {
+        "value": 0.9977120562231734,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "decision_score": {
+        "value": 0.9951381194742435,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      }
+    },
+    "acceptance_assessment": {
+      "capture_rms": {
+        "value": 0.7170273650431386,
+        "accepted": true
+      },
+      "center_residual": {
+        "value": 0.0,
+        "accepted": true
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "accepted": true
+      },
+      "spectral_purity": {
+        "value": 0.9942801405579333,
+        "accepted": true
+      },
+      "transient_metric": {
+        "value": 0.6753660910373583,
+        "accepted": true
+      },
+      "fusion_consistency": {
+        "value": 0.9977120562231734,
+        "accepted": true
+      },
+      "decision_score": {
+        "value": 0.9951381194742435,
+        "accepted": true
+      }
+    },
+    "disposition": "CLEAN",
+    "failure_detected": false,
+    "rejected_observables": [],
+    "repair_recommendation": null,
+    "governance_state": "NO_STATE_CHANGE_AUTHORIZED"
+  },
+  {
+    "case_id": "P3B-M5J1",
+    "observation_summary": {
+      "capture_rms": {
+        "value": 0.7193222510809476,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "center_residual": {
+        "value": 0.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "spectral_purity": {
+        "value": 0.9939265160746784,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "transient_metric": {
+        "value": 0.7312007101755661,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "fusion_consistency": {
+        "value": 0.9975706064298714,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "decision_score": {
+        "value": 0.9948375386634767,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      }
+    },
+    "acceptance_assessment": {
+      "capture_rms": {
+        "value": 0.7193222510809476,
+        "accepted": true
+      },
+      "center_residual": {
+        "value": 0.0,
+        "accepted": true
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "accepted": true
+      },
+      "spectral_purity": {
+        "value": 0.9939265160746784,
+        "accepted": true
+      },
+      "transient_metric": {
+        "value": 0.7312007101755661,
+        "accepted": true
+      },
+      "fusion_consistency": {
+        "value": 0.9975706064298714,
+        "accepted": true
+      },
+      "decision_score": {
+        "value": 0.9948375386634767,
+        "accepted": true
+      }
+    },
+    "disposition": "CLEAN",
+    "failure_detected": false,
+    "rejected_observables": [],
+    "repair_recommendation": null,
+    "governance_state": "NO_STATE_CHANGE_AUTHORIZED"
+  },
+  {
+    "case_id": "P3B-X9C3",
+    "observation_summary": {
+      "capture_rms": {
+        "value": 0.6676031785467411,
+        "position": "BELOW_EMPIRICAL_REFERENCE"
+      },
+      "center_residual": {
+        "value": 3.469446951953614e-18,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "spectral_purity": {
+        "value": 0.9923890094660021,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "transient_metric": {
+        "value": 0.7210068902900858,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "fusion_consistency": {
+        "value": 0.9969556037864008,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "decision_score": {
+        "value": 0.9935306580461017,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      }
+    },
+    "acceptance_assessment": {
+      "capture_rms": {
+        "value": 0.6676031785467411,
+        "accepted": true
+      },
+      "center_residual": {
+        "value": 3.469446951953614e-18,
+        "accepted": true
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "accepted": true
+      },
+      "spectral_purity": {
+        "value": 0.9923890094660021,
+        "accepted": true
+      },
+      "transient_metric": {
+        "value": 0.7210068902900858,
+        "accepted": true
+      },
+      "fusion_consistency": {
+        "value": 0.9969556037864008,
+        "accepted": true
+      },
+      "decision_score": {
+        "value": 0.9935306580461017,
+        "accepted": true
+      }
+    },
+    "disposition": "CLEAN",
+    "failure_detected": false,
+    "rejected_observables": [],
+    "repair_recommendation": null,
+    "governance_state": "NO_STATE_CHANGE_AUTHORIZED"
+  },
+  {
+    "case_id": "P3B-R6T8",
+    "observation_summary": {
+      "capture_rms": {
+        "value": 0.7587743211585916,
+        "position": "ABOVE_EMPIRICAL_REFERENCE"
+      },
+      "center_residual": {
+        "value": 0.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "spectral_purity": {
+        "value": 0.9936643219082317,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "transient_metric": {
+        "value": 0.685411666190345,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "fusion_consistency": {
+        "value": 0.9974657287632926,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "decision_score": {
+        "value": 0.994614673621997,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      }
+    },
+    "acceptance_assessment": {
+      "capture_rms": {
+        "value": 0.7587743211585916,
+        "accepted": true
+      },
+      "center_residual": {
+        "value": 0.0,
+        "accepted": true
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "accepted": true
+      },
+      "spectral_purity": {
+        "value": 0.9936643219082317,
+        "accepted": true
+      },
+      "transient_metric": {
+        "value": 0.685411666190345,
+        "accepted": true
+      },
+      "fusion_consistency": {
+        "value": 0.9974657287632926,
+        "accepted": true
+      },
+      "decision_score": {
+        "value": 0.994614673621997,
+        "accepted": true
+      }
+    },
+    "disposition": "CLEAN",
+    "failure_detected": false,
+    "rejected_observables": [],
+    "repair_recommendation": null,
+    "governance_state": "NO_STATE_CHANGE_AUTHORIZED"
+  },
+  {
+    "case_id": "P3B-B3W7",
+    "observation_summary": {
+      "capture_rms": {
+        "value": 0.7186698503252851,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "center_residual": {
+        "value": 0.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "spectral_purity": {
+        "value": 0.9904713086658494,
+        "position": "BELOW_EMPIRICAL_REFERENCE"
+      },
+      "transient_metric": {
+        "value": 0.7513368091332544,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "fusion_consistency": {
+        "value": 0.9961885234663398,
+        "position": "BELOW_EMPIRICAL_REFERENCE"
+      },
+      "decision_score": {
+        "value": 0.9919006123659719,
+        "position": "BELOW_EMPIRICAL_REFERENCE"
+      }
+    },
+    "acceptance_assessment": {
+      "capture_rms": {
+        "value": 0.7186698503252851,
+        "accepted": true
+      },
+      "center_residual": {
+        "value": 0.0,
+        "accepted": true
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "accepted": true
+      },
+      "spectral_purity": {
+        "value": 0.9904713086658494,
+        "accepted": true
+      },
+      "transient_metric": {
+        "value": 0.7513368091332544,
+        "accepted": true
+      },
+      "fusion_consistency": {
+        "value": 0.9961885234663398,
+        "accepted": true
+      },
+      "decision_score": {
+        "value": 0.9919006123659719,
+        "accepted": true
+      }
+    },
+    "disposition": "CLEAN",
+    "failure_detected": false,
+    "rejected_observables": [],
+    "repair_recommendation": null,
+    "governance_state": "NO_STATE_CHANGE_AUTHORIZED"
+  },
+  {
+    "case_id": "P3B-L8P4",
+    "observation_summary": {
+      "capture_rms": {
+        "value": 0.7193477701391234,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "center_residual": {
+        "value": 3.469446951953614e-18,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "spectral_purity": {
+        "value": 0.9942440750659078,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "transient_metric": {
+        "value": 0.7038605855801657,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "fusion_consistency": {
+        "value": 0.9976976300263631,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      },
+      "decision_score": {
+        "value": 0.9951074638060217,
+        "position": "WITHIN_EMPIRICAL_REFERENCE"
+      }
+    },
+    "acceptance_assessment": {
+      "capture_rms": {
+        "value": 0.7193477701391234,
+        "accepted": true
+      },
+      "center_residual": {
+        "value": 3.469446951953614e-18,
+        "accepted": true
+      },
+      "peak_freq": {
+        "value": 8.0,
+        "accepted": true
+      },
+      "spectral_purity": {
+        "value": 0.9942440750659078,
+        "accepted": true
+      },
+      "transient_metric": {
+        "value": 0.7038605855801657,
+        "accepted": true
+      },
+      "fusion_consistency": {
+        "value": 0.9976976300263631,
+        "accepted": true
+      },
+      "decision_score": {
+        "value": 0.9951074638060217,
+        "accepted": true
+      }
+    },
+    "disposition": "CLEAN",
+    "failure_detected": false,
+    "rejected_observables": [],
+    "repair_recommendation": null,
+    "governance_state": "NO_STATE_CHANGE_AUTHORIZED"
+  }
+]
