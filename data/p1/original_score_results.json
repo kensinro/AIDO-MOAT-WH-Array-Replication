@@ -1,0 +1,1932 @@
+{
+  "version": "PRACTICAL1-M / WH V0.0.17",
+  "title": "N=100 Boundary Stress Panel",
+  "panel": {
+    "n": 100,
+    "seed": 16082026100,
+    "blocks": {
+      "AMBIGUOUS": 20,
+      "BOUNDARY": 30,
+      "FAMILIAR": 20,
+      "NOVEL": 20,
+      "UNDERDETERMINED": 10
+    },
+    "blinding": "WH policy reads frozen observed packets only. Predictions are serialized before scoring truth is loaded."
+  },
+  "endpoints": {
+    "detection_sensitivity": 0.9506172839506173,
+    "specificity": 0.9473684210526315,
+    "false_positive_rate": 0.05263157894736842,
+    "TP": 77,
+    "TN": 18,
+    "FP": 1,
+    "FN": 4,
+    "exact_fault_set_localization_rate": 0.8524590163934426,
+    "exact_fault_set_localization": "52/61",
+    "topology_accuracy": 0.78,
+    "action_accuracy": 0.95,
+    "appropriate_abstention_rate": 1.0,
+    "appropriate_abstention": "20/20",
+    "causal_overclaim_rate_on_underdetermined": 0.0,
+    "repair_target_accuracy": 0.8269230769230769,
+    "repair_target_cases": 52,
+    "total_targeted_inspections": 26,
+    "mean_inspections_per_case": 0.26,
+    "mean_inspections_per_diagnosable_case": 0.4262295081967213,
+    "governance_violations": 0
+  },
+  "stress_block_results": {
+    "BOUNDARY": {
+      "n": 30,
+      "det_correct": 28,
+      "action_correct": 28,
+      "diag_n": 15,
+      "loc_correct": 14,
+      "topo_correct": 28,
+      "abstain_n": 0,
+      "abstain_correct": 0,
+      "detection_accuracy": 0.9333333333333333,
+      "action_accuracy": 0.9333333333333333,
+      "topology_accuracy": 0.9333333333333333,
+      "localization_accuracy": 0.9333333333333333,
+      "abstention_accuracy": null
+    },
+    "AMBIGUOUS": {
+      "n": 20,
+      "det_correct": 20,
+      "action_correct": 20,
+      "diag_n": 10,
+      "loc_correct": 10,
+      "topo_correct": 20,
+      "abstain_n": 10,
+      "abstain_correct": 10,
+      "detection_accuracy": 1.0,
+      "action_accuracy": 1.0,
+      "topology_accuracy": 1.0,
+      "localization_accuracy": 1.0,
+      "abstention_accuracy": 1.0
+    },
+    "NOVEL": {
+      "n": 20,
+      "det_correct": 17,
+      "action_correct": 17,
+      "diag_n": 20,
+      "loc_correct": 12,
+      "topo_correct": 0,
+      "abstain_n": 0,
+      "abstain_correct": 0,
+      "detection_accuracy": 0.85,
+      "action_accuracy": 0.85,
+      "topology_accuracy": 0.0,
+      "localization_accuracy": 0.6,
+      "abstention_accuracy": null
+    },
+    "FAMILIAR": {
+      "n": 20,
+      "det_correct": 20,
+      "action_correct": 20,
+      "diag_n": 16,
+      "loc_correct": 16,
+      "topo_correct": 20,
+      "abstain_n": 0,
+      "abstain_correct": 0,
+      "detection_accuracy": 1.0,
+      "action_accuracy": 1.0,
+      "topology_accuracy": 1.0,
+      "localization_accuracy": 1.0,
+      "abstention_accuracy": null
+    },
+    "UNDERDETERMINED": {
+      "n": 10,
+      "det_correct": 10,
+      "action_correct": 10,
+      "diag_n": 0,
+      "loc_correct": 0,
+      "topo_correct": 10,
+      "abstain_n": 10,
+      "abstain_correct": 10,
+      "detection_accuracy": 1.0,
+      "action_accuracy": 1.0,
+      "topology_accuracy": 1.0,
+      "localization_accuracy": null,
+      "abstention_accuracy": 1.0
+    }
+  },
+  "case_results": [
+    {
+      "case_id": "STRESS-001",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-002",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-003",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-004",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-005",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "pred_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_topology": "CUMULATIVE_PATH",
+      "pred_topology": "CUMULATIVE_PATH",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-006",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-007",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-008",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SYNERGISTIC_INTERACTION",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-009",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-010",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-011",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-012",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "pred_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_topology": "CUMULATIVE_PATH",
+      "pred_topology": "CUMULATIVE_PATH",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-013",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M03_SCORE"
+      ],
+      "truth_topology": "SEQUENTIAL_CASCADE",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-014",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "pred_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_topology": "CUMULATIVE_PATH",
+      "pred_topology": "CUMULATIVE_PATH",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-015",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M03_SCORE"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-016",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-017",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-018",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "COMPENSATED_FAILURE",
+      "pred_topology": "COMPENSATED_FAILURE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-019",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": true,
+      "truth_action": "PROCEED",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "CLEAN",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": false,
+      "action_correct": false,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-020",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-021",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-022",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-023",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "pred_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_topology": "CUMULATIVE_PATH",
+      "pred_topology": "CUMULATIVE_PATH",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-024",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-025",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "pred_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_topology": "CUMULATIVE_PATH",
+      "pred_topology": "CUMULATIVE_PATH",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-026",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "L04_SCORE"
+      ],
+      "pred_fault_set": [
+        "L04_SCORE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-027",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "LATENT_FAILURE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-028",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-029",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": false,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "LATENT_FAILURE",
+      "pred_topology": "CLEAN",
+      "detection_correct": false,
+      "action_correct": false,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-030",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-031",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "PARTIAL_MASKING",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-032",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-033",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-034",
+      "stress_block": "FAMILIAR",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-035",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SYNERGISTIC_INTERACTION",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-036",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "pred_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_topology": "CUMULATIVE_PATH",
+      "pred_topology": "CUMULATIVE_PATH",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-037",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "COMPENSATED_FAILURE",
+      "pred_topology": "COMPENSATED_FAILURE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-038",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "PARTIAL_MASKING",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-039",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-040",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "pred_fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "truth_topology": "CUMULATIVE_PATH",
+      "pred_topology": "CUMULATIVE_PATH",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-041",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "truth_topology": "SYNERGISTIC_INTERACTION",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-042",
+      "stress_block": "FAMILIAR",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-043",
+      "stress_block": "FAMILIAR",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-044",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M03_SCORE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-045",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M03_SCORE"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-046",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-047",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": false,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "CLEAN",
+      "detection_correct": false,
+      "action_correct": false,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-048",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-049",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "PARTIAL_MASKING",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-050",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-051",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-052",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "L03_FEATURE"
+      ],
+      "pred_fault_set": [
+        "L03_FEATURE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-053",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-054",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M03_SCORE"
+      ],
+      "truth_topology": "SEQUENTIAL_CASCADE",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-055",
+      "stress_block": "FAMILIAR",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-056",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-057",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "truth_topology": "SEQUENTIAL_CASCADE",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-058",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-059",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-060",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M03_SCORE"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-061",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-062",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-063",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-064",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "truth_topology": "SYNERGISTIC_INTERACTION",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-065",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-066",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": false,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "LATENT_FAILURE",
+      "pred_topology": "CLEAN",
+      "detection_correct": false,
+      "action_correct": false,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-067",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-068",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-069",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-070",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-071",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-072",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "truth_topology": "MULTI_SOURCE",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-073",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "MULTI_SOURCE",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-074",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-075",
+      "stress_block": "UNDERDETERMINED",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-076",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-077",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-078",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "truth_topology": "SEQUENTIAL_CASCADE",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-079",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-080",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": false,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "LATENT_FAILURE",
+      "pred_topology": "CLEAN",
+      "detection_correct": false,
+      "action_correct": false,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-081",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-082",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M03_SCORE"
+      ],
+      "truth_topology": "SEQUENTIAL_CASCADE",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": false
+    },
+    {
+      "case_id": "STRESS-083",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-084",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-085",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-086",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SYNERGISTIC_INTERACTION",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-087",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "PARTIAL_MASKING",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-088",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-089",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-090",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-091",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-092",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "LATENT_FAILURE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-093",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M03_SCORE"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-094",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "ABSTAIN",
+      "pred_action": "ABSTAIN",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [],
+      "truth_topology": "UNDERDETERMINED",
+      "pred_topology": "UNDERDETERMINED",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-095",
+      "stress_block": "NOVEL",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "PARTIAL_MASKING",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-096",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-097",
+      "stress_block": "BOUNDARY",
+      "truth_fault": false,
+      "pred_fault": false,
+      "truth_action": "PROCEED",
+      "pred_action": "PROCEED",
+      "truth_fault_set": [],
+      "pred_fault_set": [],
+      "truth_topology": "CLEAN",
+      "pred_topology": "CLEAN",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": null
+    },
+    {
+      "case_id": "STRESS-098",
+      "stress_block": "FAMILIAR",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD",
+        "M03_SCORE"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD",
+        "M03_SCORE"
+      ],
+      "truth_topology": "MULTI_SOURCE",
+      "pred_topology": "MULTI_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-099",
+      "stress_block": "AMBIGUOUS",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M01_LOAD"
+      ],
+      "pred_fault_set": [
+        "M01_LOAD"
+      ],
+      "truth_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "pred_topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    },
+    {
+      "case_id": "STRESS-100",
+      "stress_block": "BOUNDARY",
+      "truth_fault": true,
+      "pred_fault": true,
+      "truth_action": "DIAGNOSE",
+      "pred_action": "DIAGNOSE",
+      "truth_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "pred_fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "truth_topology": "SINGLE_SOURCE",
+      "pred_topology": "SINGLE_SOURCE",
+      "detection_correct": true,
+      "action_correct": true,
+      "localization_correct": true
+    }
+  ],
+  "interpretation": "This panel is designed to expose the current WH boundary, not maximize accuracy. Familiar cases test retained competence; boundary cases stress threshold robustness; ambiguous/underdetermined cases test epistemic restraint; novel cases test transfer beyond explicitly operationalized topology rules.",
+  "claim_ceiling": "One prospectively frozen, shuffled N=100 synthetic boundary-stress panel characterizes failure modes and epistemic behavior of the current transparent WH policy under declared stressors. It does not establish real-world external validity, domain-general performance, causal proof, or human/MOAT-SCOPE superiority."
+}
