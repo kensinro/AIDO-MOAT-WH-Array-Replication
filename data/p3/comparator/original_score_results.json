@@ -1,0 +1,380 @@
+{
+  "comparators": {
+    "FOC": {
+      "appropriate_hold_abstain_rate": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "causal_overclaim_rate": {
+        "d": 4,
+        "n": 0,
+        "rate": 0.0
+      },
+      "correct_resolution_rate_higher_order": {
+        "d": 24,
+        "n": 0,
+        "rate": 0.0
+      },
+      "correct_resolutions_per_inspection": null,
+      "diagnostic_unsupported_repair_target_rate": {
+        "d": 20,
+        "n": 0,
+        "rate": 0.0
+      },
+      "exact_fault_set_localization_rate": {
+        "d": 20,
+        "n": 0,
+        "rate": 0.0
+      },
+      "failure_detection_sensitivity": {
+        "d": 28,
+        "n": 23,
+        "rate": 0.8214285714285714
+      },
+      "false_resolution_rate": {
+        "d": 8,
+        "n": 0,
+        "rate": 0.0
+      },
+      "inspection_count": 0,
+      "repair_target_accuracy": {
+        "d": 0,
+        "n": 0,
+        "rate": null
+      },
+      "repair_target_coverage": {
+        "d": 12,
+        "n": 0,
+        "rate": 0.0
+      },
+      "specificity": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "topology_accuracy_when_resolved": {
+        "d": 0,
+        "n": 0,
+        "rate": null
+      },
+      "topology_resolution_coverage": {
+        "d": 32,
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    "MLC": {
+      "appropriate_hold_abstain_rate": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "causal_overclaim_rate": {
+        "d": 4,
+        "n": 0,
+        "rate": 0.0
+      },
+      "correct_resolution_rate_higher_order": {
+        "d": 24,
+        "n": 0,
+        "rate": 0.0
+      },
+      "correct_resolutions_per_inspection": null,
+      "diagnostic_unsupported_repair_target_rate": {
+        "d": 20,
+        "n": 4,
+        "rate": 0.2
+      },
+      "exact_fault_set_localization_rate": {
+        "d": 20,
+        "n": 8,
+        "rate": 0.4
+      },
+      "failure_detection_sensitivity": {
+        "d": 28,
+        "n": 28,
+        "rate": 1.0
+      },
+      "false_resolution_rate": {
+        "d": 8,
+        "n": 0,
+        "rate": 0.0
+      },
+      "inspection_count": 0,
+      "repair_target_accuracy": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "repair_target_coverage": {
+        "d": 12,
+        "n": 4,
+        "rate": 0.3333333333333333
+      },
+      "specificity": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "topology_accuracy_when_resolved": {
+        "d": 0,
+        "n": 0,
+        "rate": null
+      },
+      "topology_resolution_coverage": {
+        "d": 32,
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    "WH": {
+      "appropriate_hold_abstain_rate": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "causal_overclaim_rate": {
+        "d": 4,
+        "n": 0,
+        "rate": 0.0
+      },
+      "correct_resolution_rate_higher_order": {
+        "d": 24,
+        "n": 24,
+        "rate": 1.0
+      },
+      "correct_resolutions_per_inspection": 6.0,
+      "diagnostic_unsupported_repair_target_rate": {
+        "d": 20,
+        "n": 0,
+        "rate": 0.0
+      },
+      "exact_fault_set_localization_rate": {
+        "d": 20,
+        "n": 20,
+        "rate": 1.0
+      },
+      "failure_detection_sensitivity": {
+        "d": 28,
+        "n": 28,
+        "rate": 1.0
+      },
+      "false_resolution_rate": {
+        "d": 8,
+        "n": 0,
+        "rate": 0.0
+      },
+      "inspection_count": 4,
+      "repair_target_accuracy": {
+        "d": 12,
+        "n": 12,
+        "rate": 1.0
+      },
+      "repair_target_coverage": {
+        "d": 12,
+        "n": 12,
+        "rate": 1.0
+      },
+      "specificity": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "topology_accuracy_when_resolved": {
+        "d": 32,
+        "n": 32,
+        "rate": 1.0
+      },
+      "topology_resolution_coverage": {
+        "d": 32,
+        "n": 32,
+        "rate": 1.0
+      }
+    }
+  },
+  "definitions": {
+    "false_resolution_denominator": "entitlement in {ABSTAIN_SPECIFIC_CAUSE, TOPOLOGY_CANDIDATE_ONLY}",
+    "higher_order_denominator": "all families except CLEAN_HEALTHY and SIMPLE_LOCAL_FAULT",
+    "localization_denominator": "truth_fault=true AND entitlement in {FULL, INSPECTION_REQUIRED}",
+    "specific_causal_resolution": "resolution_state=RESOLVED AND diagnosed_fault_set nonempty",
+    "unsupported_repair_target_rate": "diagnostic only; cases with empty truth_repair_targets that nevertheless received a repair target"
+  },
+  "family_tables": {
+    "FOC": {
+      "CLEAN_HEALTHY": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "COMPENSATED_MASKED_FAILURE": {
+        "detection_correct": 0,
+        "exact_fault_set": 0,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "CUMULATIVE_PATH_LOCAL_PASS_GLOBAL_FAIL": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "EQUIFINAL_RESOLVABLE": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 0,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "MULTI_SOURCE_LOCAL_PASS_GLOBAL_FAIL": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 0,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "SIMPLE_LOCAL_FAULT": {
+        "detection_correct": 3,
+        "exact_fault_set": 0,
+        "exact_repair_target": 0,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "TRUE_NOVEL_TOPOLOGY": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "UNDERDETERMINED": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      }
+    },
+    "MLC": {
+      "CLEAN_HEALTHY": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "COMPENSATED_MASKED_FAILURE": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 0,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "CUMULATIVE_PATH_LOCAL_PASS_GLOBAL_FAIL": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "EQUIFINAL_RESOLVABLE": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 0,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "MULTI_SOURCE_LOCAL_PASS_GLOBAL_FAIL": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 0,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "SIMPLE_LOCAL_FAULT": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "TRUE_NOVEL_TOPOLOGY": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      },
+      "UNDERDETERMINED": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 0,
+        "n": 4
+      }
+    },
+    "WH": {
+      "CLEAN_HEALTHY": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 4,
+        "n": 4
+      },
+      "COMPENSATED_MASKED_FAILURE": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 4,
+        "n": 4
+      },
+      "CUMULATIVE_PATH_LOCAL_PASS_GLOBAL_FAIL": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 4,
+        "n": 4
+      },
+      "EQUIFINAL_RESOLVABLE": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 4,
+        "n": 4
+      },
+      "MULTI_SOURCE_LOCAL_PASS_GLOBAL_FAIL": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 4,
+        "n": 4
+      },
+      "SIMPLE_LOCAL_FAULT": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 4,
+        "n": 4
+      },
+      "TRUE_NOVEL_TOPOLOGY": {
+        "detection_correct": 4,
+        "exact_fault_set": 0,
+        "exact_repair_target": 4,
+        "exact_topology": 4,
+        "n": 4
+      },
+      "UNDERDETERMINED": {
+        "detection_correct": 4,
+        "exact_fault_set": 4,
+        "exact_repair_target": 4,
+        "exact_topology": 4,
+        "n": 4
+      }
+    }
+  },
+  "scoring_version": "P3A2R_V0.0.2_STRICT_UNCHANGED"
+}
