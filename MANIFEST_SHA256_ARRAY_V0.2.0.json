@@ -23,10 +23,10 @@
   },
   "historical_v01_compiled_executable_sha256": "d70a283e6fa949566a28fa7cabb65544229489d9365df7a4ae993e6f4d7862e5",
   "bound_manuscript": {
-    "main_file": "WH_MAIN_ARRAY_V1.3_P4_RECOMPUTE_CLOSED_CANDIDATE_2026-09-21.docx",
-    "main_sha256": "b843030885735037c40e466114e25a8475b9bb09e0a67e59e7a2b5dd17528719",
-    "si_file": "WH_SI_ARRAY_V1.3_P4_RECOMPUTE_CLOSED_CANDIDATE_2026-09-21.docx",
-    "si_sha256": "3e0a801a1838d105e387ab764dd1f6edb28c34cd284b7e472bd57a3ec5078f74"
+    "main_file": "WH_MAIN_ARRAY_V1.4_PUBLIC_DOI_BOUND_CANDIDATE_2026-09-22.docx",
+    "main_sha256": "2b0e961093a0d5f0c0244009d30f8fbd2530b20283b17f441e8ded6f9e22f047",
+    "si_file": "WH_SI_ARRAY_V1.4_PUBLIC_DOI_BOUND_CANDIDATE_2026-09-22.docx",
+    "si_sha256": "16185a876eb6a9910277276984d9668db45aa072595cbad23429e86df3868a6b"
   },
   "boundaries": {
     "public_repository_access": "PASS",
@@ -35,7 +35,7 @@
     "complete_historical_implementation_equivalence": "NOT_CLAIMED",
     "production_effectiveness": "NOT_CLAIMED",
     "doi_archive": "PASS",
-    "array_portal_binding": "PENDING"
+    "array_portal_binding": "PORTAL_VERIFY"
   },
   "doi": "10.5281/zenodo.22879998",
   "doi_url": "https://doi.org/10.5281/zenodo.22879998",
@@ -43,5 +43,6 @@
     "tag": "v0.2.0",
     "url": "https://github.com/kensinro/AIDO-MOAT-WH-Array-Replication/releases/tag/v0.2.0",
     "published": true
-  }
+  },
+  "manuscript_binding_note": "V1.4 binds the public GitHub v0.2.0 release and Zenodo DOI; the Zenodo v0.2.0 archive is the technical replication snapshot, while this repository main may contain metadata-only post-release binding updates."
 }
