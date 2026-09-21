@@ -1,0 +1,113 @@
+{
+  "N": 20,
+  "appropriate_hold_abstain": {
+    "d": 2,
+    "n": 2,
+    "rate": 1.0
+  },
+  "capability_retention_vs_P3A2R": {
+    "appropriate_hold_retention": 1.0,
+    "detection_retention": 1.0,
+    "localization_retention": 1.0,
+    "note": "P3-A2R WH reference rates used here were 1.0 for the matched reported endpoints; retention is protocol-specific, not a universal generality coefficient.",
+    "topology_disposition_retention": 1.0
+  },
+  "exact_fault_localization_eligible": {
+    "d": 16,
+    "n": 16,
+    "rate": 1.0
+  },
+  "failure_detection_sensitivity": {
+    "d": 20,
+    "n": 20,
+    "rate": 1.0
+  },
+  "false_resolution_novel_or_underdetermined": {
+    "d": 4,
+    "n": 0,
+    "rate": 0.0
+  },
+  "family_table": {
+    "compensated_masking": {
+      "detection_correct": 4,
+      "fault_set_exact": 4,
+      "n": 4,
+      "repair_target_exact": 4,
+      "topology_exact": 4
+    },
+    "cumulative_path": {
+      "detection_correct": 4,
+      "fault_set_exact": 4,
+      "n": 4,
+      "repair_target_exact": 4,
+      "topology_exact": 4
+    },
+    "equifinality": {
+      "detection_correct": 4,
+      "fault_set_exact": 4,
+      "n": 4,
+      "repair_target_exact": 4,
+      "topology_exact": 4
+    },
+    "simple_local": {
+      "detection_correct": 4,
+      "fault_set_exact": 4,
+      "n": 4,
+      "repair_target_exact": 4,
+      "topology_exact": 4
+    },
+    "true_novel": {
+      "detection_correct": 2,
+      "fault_set_exact": 2,
+      "n": 2,
+      "repair_target_exact": 2,
+      "topology_exact": 2
+    },
+    "underdetermined": {
+      "detection_correct": 2,
+      "fault_set_exact": 2,
+      "n": 2,
+      "repair_target_exact": 2,
+      "topology_exact": 2
+    }
+  },
+  "governance_violations": 0,
+  "inspection_count": 4,
+  "novel_candidate_governance_correct": {
+    "d": 2,
+    "n": 2,
+    "rate": 1.0
+  },
+  "qualification": {
+    "B2_disposition": "PASS",
+    "detection_floor_pass": true,
+    "false_resolution_hard_gate_pass": true,
+    "governance_hard_gate_pass": true,
+    "hold_floor_pass": true,
+    "localization_floor_pass": true,
+    "representation_leakage_hard_gate_pass": true,
+    "topology_floor_pass": true
+  },
+  "repair_target_accuracy_entitled_cases": {
+    "d": 8,
+    "n": 8,
+    "rate": 1.0
+  },
+  "representation_leakage_count": 0,
+  "representation_leakage_terms": [],
+  "scoring_notes": {
+    "family_fault_set_exact_field": "Descriptive set equality only; for novel/underdetermined empty-set equality is NOT treated as causal localization success.",
+    "localization_denominator": "Only FULL or INSPECTION_REQUIRED entitlement cases (16/20). Novel candidate and underdetermined cases are excluded from causal-localization scoring.",
+    "repair_target_scope": "Direct targets are entitled only for simple-local and post-inspection equifinality cases in this panel."
+  },
+  "topology_or_disposition_correctness": {
+    "d": 20,
+    "n": 20,
+    "rate": 1.0
+  },
+  "unsupported_repair_target_rate": {
+    "d": 12,
+    "n": 0,
+    "rate": 0.0
+  }
+}
