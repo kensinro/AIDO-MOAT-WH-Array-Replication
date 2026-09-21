@@ -1,0 +1,40 @@
+{
+  "package_target": "V0.2.0-ARRAY-PUBLIC",
+  "repository": "https://github.com/kensinro/AIDO-MOAT-WH-Array-Replication",
+  "public_release_date": "2026-09-22",
+  "scientific_state_mutation": false,
+  "verifier": "scripts/verify_array_v0_2_0.py",
+  "protocol4_recompute": "scripts/recompute_p4_endpoints.py",
+  "governed_artifacts": {
+    "data/p4/GATE3C_RE2TT_PREDICTION_FREEZE_RECEIPT.json": "d014fd060d9c65dfdb2721c767d6b2e5bf5e43c6e8cf5c2e19c91e304f4a1022",
+    "data/p4/GATE3D_GOLD_PATH_PARSE_HOLD.json": "988122883b9b558356d1399365eadd3304392397e4239cb500540a48466e5dec",
+    "data/p4/GATE3D1_RE2TT_GOLD_MAPPING_REPAIRED.json": "7a2431b7163809bc6abb9a38daf54fef1e4b7cccf37f35a50d30a9d7b3d281cc",
+    "data/p4/GATE3D1_GOLD_PATH_SEMANTICS_AUDIT.json": "f952f5942d8621eee1c1764fadba0a2e3e53237c4984d19786241fa69bacb4e9",
+    "data/p4/GATE3D2_RE2TT_CONFIRMATORY_RESULTS.json": "ffb6f9a1d9d82782b4afc9ed6eaf935cdb1e8ef85b814ce06a66fb294dd703db",
+    "data/p4/GATE3D2_RESULT_FREEZE_RECEIPT.json": "7bb7d75f748e409e0352ddf39e0f882ae2ed08730dd5325a28cf68fccd040fa4",
+    "data/p4/GATE3D2_RE2TT_CASE_LEVEL_SCORE.csv": "8af4f019135e6197bee54dab3d6471e99a8676884beb9eefedf9e3a9debcadd3",
+    "data/p4/GATE3C_RETURN_PACKET_PRE_GOLD.zip": "3b46dc057e9d50335f957621f7a9639092e9b6426a27232bb6441a3c281957a8",
+    "data/p4/GATE3D1_RETURN_PACKET_GOLD_MAPPING_REPAIRED.zip": "e9899bb7b39e16c656fff32aaf08e32422e5cda2bb0f1bff3646a19bd47fa69e",
+    "data/p4/GATE3D2_RETURN_PACKET_CONFIRMATORY_RESULTS.zip": "f31b2314d5e603288a421a919fc707d6da03fef7584165df47cb29296118fcda",
+    "reconstruction/WH_JSS_DECISION_INPUT_CONTRACT_V0.1.json": "82065a9b5af20dfeeb6e4931580bc1e1568a29fbeb1c0c6204b0fa2eb6faa699",
+    "reconstruction/WH_JSS_INDEPENDENT_RECONSTRUCTION_AUDIT_V0.1.md": "1a6d05ad7d8c24fc98d424ab13c422a4049763058dae13839b429533bc44f276",
+    "reconstruction/WH_JSS_INDEPENDENT_RECONSTRUCTION_PACKET_V0.1.zip": "7581b4fc7744fa5c872622edd9b6c2b9a047a69ee97bfc8ace843d14e45eae1d",
+    "reconstruction/WH_JSS_EXECUTABLE_RECONSTRUCTION_V0.2.zip": "879dd0f86454ea67e63e81592c5914ff1ed7aa4d1d82e5a8ecf2dd8abada52ec"
+  },
+  "historical_v01_compiled_executable_sha256": "d70a283e6fa949566a28fa7cabb65544229489d9365df7a4ae993e6f4d7862e5",
+  "bound_manuscript": {
+    "main_file": "WH_MAIN_ARRAY_V1.3_P4_RECOMPUTE_CLOSED_CANDIDATE_2026-09-21.docx",
+    "main_sha256": "b843030885735037c40e466114e25a8475b9bb09e0a67e59e7a2b5dd17528719",
+    "si_file": "WH_SI_ARRAY_V1.3_P4_RECOMPUTE_CLOSED_CANDIDATE_2026-09-21.docx",
+    "si_sha256": "3e0a801a1838d105e387ab764dd1f6edb28c34cd284b7e472bd57a3ec5078f74"
+  },
+  "boundaries": {
+    "public_repository_access": "PASS",
+    "technical_reproducibility": "PASS_CANDIDATE",
+    "historical_v01_source_file": "NOT_FOUND_ARCHIVAL_LIMITATION",
+    "complete_historical_implementation_equivalence": "NOT_CLAIMED",
+    "production_effectiveness": "NOT_CLAIMED",
+    "doi_archive": "PENDING",
+    "array_portal_binding": "PENDING"
+  }
+}
