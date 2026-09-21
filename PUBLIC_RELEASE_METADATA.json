@@ -19,5 +19,12 @@
     "highlights_file": "ARRAY_HIGHLIGHTS_V1.2_PORTAL_READY_2026-09-22.docx",
     "highlights_sha256": "48b43b9db9b17d0e502b34af5adfd5bffb56cb9e53b06220cd15e04a967f4e1b"
   },
-  "previous_zenodo_version_doi": "10.5281/zenodo.22879998"
+  "previous_zenodo_version_doi": "10.5281/zenodo.22879998",
+  "post_release_submission_binding": {
+    "main_file": "WH_MAIN_ARRAY_V1.6_V021_DOI_BOUND_FINAL_CANDIDATE_2026-09-22.docx",
+    "main_sha256": "659ae9066ae9d6a565f0e9786a416a206b4622417ea6c5ec9eb9b332e468c279",
+    "si_file": "WH_SI_ARRAY_V1.6_V021_DOI_BOUND_FINAL_CANDIDATE_2026-09-22.docx",
+    "si_sha256": "85ea3cbef708c7a84e626eec3e7f0dd72f24af0ecb8c4e8a57dd73f7c0c76b5b",
+    "scientific_payload_changed": false
+  }
 }
