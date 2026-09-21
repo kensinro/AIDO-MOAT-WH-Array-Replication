@@ -1,0 +1,254 @@
+[
+  {
+    "case_id": "P3B-H7Q2",
+    "expected_failure": true,
+    "panel_block": "simple_local",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N20_SPECTRAL"
+    ],
+    "truth_repair_targets": [
+      "N20_SPECTRAL"
+    ],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "STRUCTURAL_SINGLE_SOURCE"
+  },
+  {
+    "case_id": "P3B-C4M9",
+    "expected_failure": true,
+    "panel_block": "simple_local",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N30_TRANSIENT"
+    ],
+    "truth_repair_targets": [
+      "N30_TRANSIENT"
+    ],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "STRUCTURAL_SINGLE_SOURCE"
+  },
+  {
+    "case_id": "P3B-V8K1",
+    "expected_failure": true,
+    "panel_block": "simple_local",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N10_CENTER"
+    ],
+    "truth_repair_targets": [
+      "N10_CENTER"
+    ],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "STRUCTURAL_SINGLE_SOURCE"
+  },
+  {
+    "case_id": "P3B-R2D6",
+    "expected_failure": true,
+    "panel_block": "simple_local",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N40_FUSE"
+    ],
+    "truth_repair_targets": [
+      "N40_FUSE"
+    ],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "STRUCTURAL_SINGLE_SOURCE"
+  },
+  {
+    "case_id": "P3B-Z5N3",
+    "expected_failure": true,
+    "panel_block": "equifinality",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N20_SPECTRAL"
+    ],
+    "truth_repair_targets": [
+      "N20_SPECTRAL"
+    ],
+    "truth_resolution_entitlement": "INSPECTION_REQUIRED",
+    "truth_topology": "EQUIFINAL_RESOLVED_SINGLE"
+  },
+  {
+    "case_id": "P3B-A9T4",
+    "expected_failure": true,
+    "panel_block": "equifinality",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N30_TRANSIENT"
+    ],
+    "truth_repair_targets": [
+      "N30_TRANSIENT"
+    ],
+    "truth_resolution_entitlement": "INSPECTION_REQUIRED",
+    "truth_topology": "EQUIFINAL_RESOLVED_SINGLE"
+  },
+  {
+    "case_id": "P3B-J3W8",
+    "expected_failure": true,
+    "panel_block": "equifinality",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N20_SPECTRAL"
+    ],
+    "truth_repair_targets": [
+      "N20_SPECTRAL"
+    ],
+    "truth_resolution_entitlement": "INSPECTION_REQUIRED",
+    "truth_topology": "EQUIFINAL_RESOLVED_SINGLE"
+  },
+  {
+    "case_id": "P3B-M6P1",
+    "expected_failure": true,
+    "panel_block": "equifinality",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N30_TRANSIENT"
+    ],
+    "truth_repair_targets": [
+      "N30_TRANSIENT"
+    ],
+    "truth_resolution_entitlement": "INSPECTION_REQUIRED",
+    "truth_topology": "EQUIFINAL_RESOLVED_SINGLE"
+  },
+  {
+    "case_id": "P3B-X2L7",
+    "expected_failure": true,
+    "panel_block": "cumulative_path",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "PATH_CUMULATIVE"
+    ],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "PATH_CUMULATIVE"
+  },
+  {
+    "case_id": "P3B-Q8F5",
+    "expected_failure": true,
+    "panel_block": "cumulative_path",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "PATH_CUMULATIVE"
+    ],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "PATH_CUMULATIVE"
+  },
+  {
+    "case_id": "P3B-B4R9",
+    "expected_failure": true,
+    "panel_block": "cumulative_path",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "PATH_CUMULATIVE"
+    ],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "PATH_CUMULATIVE"
+  },
+  {
+    "case_id": "P3B-T1C6",
+    "expected_failure": true,
+    "panel_block": "cumulative_path",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "PATH_CUMULATIVE"
+    ],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "PATH_CUMULATIVE"
+  },
+  {
+    "case_id": "P3B-K7V3",
+    "expected_failure": true,
+    "panel_block": "compensated_masking",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N00_CAPTURE",
+      "N30_TRANSIENT"
+    ],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "COMPENSATED_FAILURE"
+  },
+  {
+    "case_id": "P3B-D5X8",
+    "expected_failure": true,
+    "panel_block": "compensated_masking",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N10_CENTER",
+      "N20_SPECTRAL"
+    ],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "COMPENSATED_FAILURE"
+  },
+  {
+    "case_id": "P3B-N2J4",
+    "expected_failure": true,
+    "panel_block": "compensated_masking",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N20_SPECTRAL",
+      "N40_FUSE"
+    ],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "COMPENSATED_FAILURE"
+  },
+  {
+    "case_id": "P3B-W9M6",
+    "expected_failure": true,
+    "panel_block": "compensated_masking",
+    "truth_action": "DIAGNOSE",
+    "truth_fault_set": [
+      "N30_TRANSIENT",
+      "N40_FUSE"
+    ],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "FULL",
+    "truth_topology": "COMPENSATED_FAILURE"
+  },
+  {
+    "case_id": "P3B-F3A7",
+    "expected_failure": true,
+    "panel_block": "true_novel",
+    "truth_action": "HOLD_FOR_GOVERNED_CHARACTERIZATION",
+    "truth_fault_set": [],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "TOPOLOGY_CANDIDATE_ONLY",
+    "truth_topology": "NEW_TOPOLOGY_CANDIDATE"
+  },
+  {
+    "case_id": "P3B-L6Q2",
+    "expected_failure": true,
+    "panel_block": "true_novel",
+    "truth_action": "HOLD_FOR_GOVERNED_CHARACTERIZATION",
+    "truth_fault_set": [],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "TOPOLOGY_CANDIDATE_ONLY",
+    "truth_topology": "NEW_TOPOLOGY_CANDIDATE"
+  },
+  {
+    "case_id": "P3B-S8K5",
+    "expected_failure": true,
+    "panel_block": "underdetermined",
+    "truth_action": "ABSTAIN",
+    "truth_fault_set": [],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "ABSTAIN_SPECIFIC_CAUSE",
+    "truth_topology": "UNDERDETERMINED"
+  },
+  {
+    "case_id": "P3B-G4T1",
+    "expected_failure": true,
+    "panel_block": "underdetermined",
+    "truth_action": "ABSTAIN",
+    "truth_fault_set": [],
+    "truth_repair_targets": [],
+    "truth_resolution_entitlement": "ABSTAIN_SPECIFIC_CAUSE",
+    "truth_topology": "UNDERDETERMINED"
+  }
+]
