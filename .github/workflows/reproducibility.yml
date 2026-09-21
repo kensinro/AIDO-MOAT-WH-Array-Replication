@@ -47,3 +47,69 @@ jobs:
           unzip -q reconstruction/WH_JSS_INDEPENDENT_RECONSTRUCTION_PACKET_V0.1.zip -d /tmp/wh_ind
           (cd /tmp/wh_exec/WH_JSS_EXECUTABLE_RECONSTRUCTION_V0.2 && python test_wh_jss_reference_adjudicator_v0_2.py)
           (cd /tmp/wh_ind/WH_JSS_INDEPENDENT_RECONSTRUCTION_PACKET_V0.1 && python test_input_normalizer.py)
+
+
+  historical-v01-score:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Extract exact historical V0.1 bytecode and independent packet
+        run: |
+          rm -rf /tmp/wh_exec /tmp/wh_ind
+          mkdir -p /tmp/wh_exec /tmp/wh_ind
+          unzip -q reconstruction/WH_JSS_EXECUTABLE_RECONSTRUCTION_V0.2.zip -d /tmp/wh_exec
+          unzip -q reconstruction/WH_JSS_INDEPENDENT_RECONSTRUCTION_PACKET_V0.1.zip -d /tmp/wh_ind
+          python - <<'PY'
+          import hashlib
+          from pathlib import Path
+          p=Path('/tmp/wh_exec/WH_JSS_EXECUTABLE_RECONSTRUCTION_V0.2/__pycache__/wh_jss_reference_adjudicator_v0_1.cpython-313.pyc')
+          got=hashlib.sha256(p.read_bytes()).hexdigest()
+          exp='d70a283e6fa949566a28fa7cabb65544229489d9365df7a4ae993e6f4d7862e5'
+          print('V0.1_PYC_SHA256', got)
+          if got != exp:
+              raise SystemExit('historical V0.1 bytecode hash mismatch')
+          PY
+      - name: Re-score frozen 64 cases with exact historical V0.1 executable bytecode
+        working-directory: /tmp/wh_ind/WH_JSS_INDEPENDENT_RECONSTRUCTION_PACKET_V0.1
+        run: |
+          python - <<'PY'
+          import importlib.util, json, pathlib, sys
+          root=pathlib.Path('.')
+          pyc=pathlib.Path('/tmp/wh_exec/WH_JSS_EXECUTABLE_RECONSTRUCTION_V0.2/__pycache__/wh_jss_reference_adjudicator_v0_1.cpython-313.pyc')
+          spec=importlib.util.spec_from_file_location('ref_v01_pyc', pyc)
+          ref=importlib.util.module_from_spec(spec)
+          sys.modules['ref_v01_pyc']=ref
+          spec.loader.exec_module(ref)
+
+          inputs=json.loads((root/'WH_JSS_BLIND_RECONSTRUCTION_INPUTS_V0.1.json').read_text())['cases']
+          preds=json.loads((root/'WH_JSS_BLIND_RECONSTRUCTION_PREDICTIONS_V0.1.json').read_text())
+          fields=['diagnostic_disposition','topology_label','known_space_compatible','resolution_state',
+                  'compatible_topologies','unresolved_topologies','exact_localization','candidate_source_sets',
+                  'inspection_state','repair_recommendation_entitled','repair_target',
+                  'repair_execution_authorized','closure_state','registry_promotion_state']
+          mismatches=[]
+          for c,p in zip(inputs,preds):
+              rc=dict(c)
+              if rc.get('human_gate_decision')=='AUTHORIZE_SCOPE':
+                  rc['human_gate_decision']='AUTHORIZE'
+              r=ref.trace_to_dict(ref.adjudicate(ref.CaseEvidence(**rc)))
+              if r.get('registry_promotion_state')=='AUTHORIZED_PROSPECTIVE_VERSION':
+                  r['registry_promotion_state']='PROMOTED_BY_HUMAN_GATE'
+              if r.get('registry_promotion_state')=='DEFER_PROMOTION':
+                  r['registry_promotion_state']='DEFERRED_PROMOTION'
+              if r.get('registry_promotion_state')=='REFUSE_PROMOTION':
+                  r['registry_promotion_state']='REFUSED_PROMOTION'
+              diffs={f:{'blind':p.get(f),'reference':r.get(f)} for f in fields if p.get(f)!=r.get(f)}
+              if diffs:
+                  mismatches.append({'case_id':c['case_id'],'differences':diffs})
+          report={'n':len(inputs),'pass':len(inputs)-len(mismatches),'fail':len(mismatches),
+                  'fields_compared':fields,'mismatches':mismatches}
+          print(json.dumps(report, indent=2))
+          if report['n'] != 64 or report['pass'] != 64 or report['fail'] != 0:
+              raise SystemExit('historical V0.1 bytecode re-score did not reproduce 64/64')
+          PY
