@@ -1,0 +1,572 @@
+{
+  "protocol": "AIDO-MOAT-WH1.X-GATE-3D.1",
+  "status": "RE2TT_GOLD_MAPPING_REPAIRED_AND_FROZEN_AFTER_PATH_PARSE_HOLD",
+  "gold_opened": true,
+  "n_cases": 90,
+  "prediction_bundle_sha256": "5d0cc805eefb353935b5b277f62610850f0f23e1e4a11bd64014b231d43e09f5",
+  "prediction_content_read_for_parser_choice": false,
+  "parser_repair_scope": "PATH_SEMANTICS_ONLY",
+  "root_services": [
+    "ts-auth-service",
+    "ts-order-service",
+    "ts-route-service",
+    "ts-train-service",
+    "ts-travel-service"
+  ],
+  "faults": [
+    "cpu",
+    "delay",
+    "disk",
+    "loss",
+    "mem",
+    "socket"
+  ],
+  "repetitions": [
+    1,
+    2,
+    3
+  ],
+  "grid_integrity_pass": true,
+  "mapping": [
+    {
+      "case_id": "TTCASE-019DC004EE604B85057B",
+      "root_cause_service": "ts-auth-service",
+      "fault": "loss",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-067891811378521C8AC8",
+      "root_cause_service": "ts-route-service",
+      "fault": "socket",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-0759B5CE41CE9DA4845E",
+      "root_cause_service": "ts-travel-service",
+      "fault": "mem",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-0767DC19312651FCC609",
+      "root_cause_service": "ts-route-service",
+      "fault": "socket",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-0D354F8A4F2803301830",
+      "root_cause_service": "ts-train-service",
+      "fault": "disk",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-1107119E23A050466F04",
+      "root_cause_service": "ts-order-service",
+      "fault": "cpu",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-120D5DA695F64910416B",
+      "root_cause_service": "ts-order-service",
+      "fault": "socket",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-122793A24F16C521DB27",
+      "root_cause_service": "ts-train-service",
+      "fault": "delay",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-127D051F27259C846010",
+      "root_cause_service": "ts-route-service",
+      "fault": "disk",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-129168830A535F95CE6D",
+      "root_cause_service": "ts-route-service",
+      "fault": "socket",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-1BAF29E00EE9041389FA",
+      "root_cause_service": "ts-route-service",
+      "fault": "mem",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-1FEEBA713962205C0E6D",
+      "root_cause_service": "ts-order-service",
+      "fault": "cpu",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-2018A8DD89E3E902C19A",
+      "root_cause_service": "ts-train-service",
+      "fault": "loss",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-23055010CCFA485496EA",
+      "root_cause_service": "ts-order-service",
+      "fault": "socket",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-24A3A482CB067A6DEA1C",
+      "root_cause_service": "ts-route-service",
+      "fault": "delay",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-2577DE5D11EA1131A367",
+      "root_cause_service": "ts-train-service",
+      "fault": "cpu",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-277AAA7024F87116D969",
+      "root_cause_service": "ts-auth-service",
+      "fault": "mem",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-2913150D6C12FB2D6278",
+      "root_cause_service": "ts-auth-service",
+      "fault": "socket",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-2CC5CC18A62776FD99E7",
+      "root_cause_service": "ts-auth-service",
+      "fault": "loss",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-2ED599FC4D1B1D421CA2",
+      "root_cause_service": "ts-travel-service",
+      "fault": "disk",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-30ABD6862FD396EFB5CD",
+      "root_cause_service": "ts-order-service",
+      "fault": "disk",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-32A9CCE3B303453D7F06",
+      "root_cause_service": "ts-train-service",
+      "fault": "mem",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-331BCCC9F57C654B0322",
+      "root_cause_service": "ts-order-service",
+      "fault": "loss",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-3554AB1DF4314C41D62D",
+      "root_cause_service": "ts-train-service",
+      "fault": "delay",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-3DFA2C4FD110646474A8",
+      "root_cause_service": "ts-order-service",
+      "fault": "socket",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-3EEF9379E6865690E901",
+      "root_cause_service": "ts-order-service",
+      "fault": "delay",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-4AF3039C1D8F51BA711B",
+      "root_cause_service": "ts-travel-service",
+      "fault": "delay",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-4B090A1399BCE340BE7C",
+      "root_cause_service": "ts-train-service",
+      "fault": "loss",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-4CCE35B9624626E8A463",
+      "root_cause_service": "ts-train-service",
+      "fault": "mem",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-4DDC92FEC3DD8FF6D24F",
+      "root_cause_service": "ts-auth-service",
+      "fault": "socket",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-4EF65F81F4D2CC29A7DC",
+      "root_cause_service": "ts-auth-service",
+      "fault": "delay",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-51ADEF20659178E7484B",
+      "root_cause_service": "ts-travel-service",
+      "fault": "disk",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-51B1828137FF808E2127",
+      "root_cause_service": "ts-train-service",
+      "fault": "delay",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-52B7640DA7336EA507DB",
+      "root_cause_service": "ts-travel-service",
+      "fault": "loss",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-54C92674D0AA7A2A7E64",
+      "root_cause_service": "ts-route-service",
+      "fault": "delay",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-5B1FC78AC310ABAB7F9F",
+      "root_cause_service": "ts-train-service",
+      "fault": "cpu",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-5BD5948720168F3217BC",
+      "root_cause_service": "ts-train-service",
+      "fault": "socket",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-68CF0DEE6AF53AA7BE9D",
+      "root_cause_service": "ts-travel-service",
+      "fault": "cpu",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-693B3A59D3D6D7A5B6E1",
+      "root_cause_service": "ts-travel-service",
+      "fault": "socket",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-6C2CAE14B682A5F935EB",
+      "root_cause_service": "ts-travel-service",
+      "fault": "cpu",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-6E5724F2BBDBE06F0F83",
+      "root_cause_service": "ts-travel-service",
+      "fault": "socket",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-70A586841484085C42B3",
+      "root_cause_service": "ts-order-service",
+      "fault": "delay",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-74C71A2703B23FE9F844",
+      "root_cause_service": "ts-auth-service",
+      "fault": "delay",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-7863D8C04EE4942C4860",
+      "root_cause_service": "ts-order-service",
+      "fault": "loss",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-7BFB3A8E36BC8E9A87A0",
+      "root_cause_service": "ts-order-service",
+      "fault": "delay",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-7F0FA1CC3FCA6ABE5742",
+      "root_cause_service": "ts-train-service",
+      "fault": "socket",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-8227AACE5E15B91A2053",
+      "root_cause_service": "ts-travel-service",
+      "fault": "disk",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-843298FC20130F410AD0",
+      "root_cause_service": "ts-route-service",
+      "fault": "loss",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-8631E0EBA74C283009C4",
+      "root_cause_service": "ts-route-service",
+      "fault": "cpu",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-8831F5CE027723A3A5DB",
+      "root_cause_service": "ts-order-service",
+      "fault": "loss",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-8A5AB74C28FEB96F22F4",
+      "root_cause_service": "ts-travel-service",
+      "fault": "loss",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-8B0987ED558581BCD4D9",
+      "root_cause_service": "ts-auth-service",
+      "fault": "delay",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-8B2946E96435FF6E5AF3",
+      "root_cause_service": "ts-route-service",
+      "fault": "loss",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-8ED30782722293BDD390",
+      "root_cause_service": "ts-auth-service",
+      "fault": "socket",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-8EEC9B05B40BD7B799C5",
+      "root_cause_service": "ts-auth-service",
+      "fault": "mem",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-9124DF5B85F93D2D9760",
+      "root_cause_service": "ts-auth-service",
+      "fault": "cpu",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-925C82B520E4FDB251E7",
+      "root_cause_service": "ts-auth-service",
+      "fault": "cpu",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-95BA5EF61741D44A2580",
+      "root_cause_service": "ts-auth-service",
+      "fault": "mem",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-9B3387ADD5A41767BAD7",
+      "root_cause_service": "ts-auth-service",
+      "fault": "disk",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-A006543A6419950A793A",
+      "root_cause_service": "ts-train-service",
+      "fault": "cpu",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-A8123ACD687256523000",
+      "root_cause_service": "ts-travel-service",
+      "fault": "socket",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-A93251568B73FC6598A0",
+      "root_cause_service": "ts-order-service",
+      "fault": "mem",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-A9BDDEF861011409BA3F",
+      "root_cause_service": "ts-route-service",
+      "fault": "mem",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-ADACE2C75B5616411432",
+      "root_cause_service": "ts-travel-service",
+      "fault": "loss",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-ADADFC198A2F3CCDED21",
+      "root_cause_service": "ts-order-service",
+      "fault": "mem",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-AE92A51E181473243CB3",
+      "root_cause_service": "ts-route-service",
+      "fault": "disk",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-B40184C764013E9C1739",
+      "root_cause_service": "ts-route-service",
+      "fault": "delay",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-B441AC697BB6E88CE705",
+      "root_cause_service": "ts-order-service",
+      "fault": "disk",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-B536905CDF2672C585A8",
+      "root_cause_service": "ts-train-service",
+      "fault": "socket",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-B7A96D6EC5FAC945AC3D",
+      "root_cause_service": "ts-auth-service",
+      "fault": "cpu",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-B85186488EFEE3ADC1CD",
+      "root_cause_service": "ts-order-service",
+      "fault": "cpu",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-B9D4B70F8CEB324E2D96",
+      "root_cause_service": "ts-train-service",
+      "fault": "disk",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-BC431241EAC492BE4726",
+      "root_cause_service": "ts-order-service",
+      "fault": "disk",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-C07FB26D73CEF026E7F5",
+      "root_cause_service": "ts-route-service",
+      "fault": "loss",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-C0ED6EF44216B9CB60E3",
+      "root_cause_service": "ts-route-service",
+      "fault": "cpu",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-C20B815C626232583375",
+      "root_cause_service": "ts-travel-service",
+      "fault": "mem",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-C5CEE036ABF97AD3B265",
+      "root_cause_service": "ts-train-service",
+      "fault": "loss",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-C9CBAD0EAE312214EAE8",
+      "root_cause_service": "ts-auth-service",
+      "fault": "disk",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-CB5DF1753537C883A465",
+      "root_cause_service": "ts-auth-service",
+      "fault": "loss",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-D10C160B592D1AFC1D60",
+      "root_cause_service": "ts-order-service",
+      "fault": "mem",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-D11B786CB31DA49876EF",
+      "root_cause_service": "ts-route-service",
+      "fault": "disk",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-D2ADE6FB2B9F2D6FF6C9",
+      "root_cause_service": "ts-travel-service",
+      "fault": "cpu",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-DB0024DBA76D23321118",
+      "root_cause_service": "ts-auth-service",
+      "fault": "disk",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-E0C0A1F7454D96EEFD88",
+      "root_cause_service": "ts-travel-service",
+      "fault": "delay",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-E69741C1EB2B9D1FFD79",
+      "root_cause_service": "ts-route-service",
+      "fault": "mem",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-F20FC1184DD13E62CFDC",
+      "root_cause_service": "ts-route-service",
+      "fault": "cpu",
+      "repetition": 3
+    },
+    {
+      "case_id": "TTCASE-FC18E610D48511ED7312",
+      "root_cause_service": "ts-train-service",
+      "fault": "mem",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-FC3BA0E135A6A3E04777",
+      "root_cause_service": "ts-travel-service",
+      "fault": "mem",
+      "repetition": 1
+    },
+    {
+      "case_id": "TTCASE-FE0E2EDD5533185AC4D7",
+      "root_cause_service": "ts-train-service",
+      "fault": "disk",
+      "repetition": 2
+    },
+    {
+      "case_id": "TTCASE-FEB7A610CE7C09340FC9",
+      "root_cause_service": "ts-travel-service",
+      "fault": "delay",
+      "repetition": 1
+    }
+  ]
+}
