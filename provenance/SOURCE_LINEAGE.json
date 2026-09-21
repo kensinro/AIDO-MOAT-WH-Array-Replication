@@ -1,0 +1,155 @@
+{
+  "package_version": "0.1.0",
+  "sources": [
+    {
+      "source_path": "/mnt/data/p1final/frozen_boundary_panel_truth_v0_1.json",
+      "package_path": "data/p1/truth_n100.json",
+      "sha256": "899414b31d9914622b851bdc147d4cb86a08ceceba8e3aa53e6c44c9c43e8f51",
+      "bytes": 26746
+    },
+    {
+      "source_path": "/mnt/data/p1final/frozen_boundary_panel_predictions_v0_1.json",
+      "package_path": "data/p1/predictions_n100.json",
+      "sha256": "d270adfa046e8f514cbcc2ba30176c2d6d6f6473ba89b8634f05cbb57ee1e4c7",
+      "bytes": 41432
+    },
+    {
+      "source_path": "/mnt/data/p1final/PRACTICAL1M_RESULTS.json",
+      "package_path": "data/p1/original_score_results.json",
+      "sha256": "c40b4f606f0d6818d7f63a4f7ca9fc408063473c1759655d1ee1ae155782dc67",
+      "bytes": 52277
+    },
+    {
+      "source_path": "/mnt/data/p2final/PRACTICAL2_FINAL_RUN_RESULTS.json",
+      "package_path": "data/p2/final_panel_n240.json",
+      "sha256": "86cbda6c1ab95269d3828bb47eb79a6e1c2065fbcba14ebc5b9929a7f788c639",
+      "bytes": 341002
+    },
+    {
+      "source_path": "/mnt/data/p2final/FULL_TEST_LOG_FINAL.txt",
+      "package_path": "data/p2/full_test_log_final.txt",
+      "sha256": "fb2b9e2f4686909d0483449780b83e25bb556df6ea44c895c7be40a688049774",
+      "bytes": 260
+    },
+    {
+      "source_path": "/mnt/data/p2final/PRACTICAL2_FINAL_LOCK_V0.0.85.md",
+      "package_path": "data/p2/final_lock_excerpt_source.md",
+      "sha256": "4e47a0062cecd682366113486cc69b1aa6d9d75945cfe87b454aa146dbc2b5e4",
+      "bytes": 1229
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3A2R_V0.0.2/provenance/P3A2R_EVALUATOR_GOLD_N32_OPENED_AFTER_PREDICTION_FREEZE.json",
+      "package_path": "data/p3/comparator/gold_n32.json",
+      "sha256": "9d58d074f9173d95bab21d3901d2b37c472a5b9251adee602a6b56fdb3ffc911",
+      "bytes": 11600
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3A2R_V0.0.2/predictions/P3A2R_FOC_PREDICTIONS_PRE_GOLD.json",
+      "package_path": "data/p3/comparator/foc_predictions.json",
+      "sha256": "9bb7d9f96db69697c00e8c09e1c0b99a75859598b6f442555753f119added120",
+      "bytes": 10619
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3A2R_V0.0.2/predictions/P3A2R_MLC_PREDICTIONS_PRE_GOLD.json",
+      "package_path": "data/p3/comparator/mlc_predictions.json",
+      "sha256": "0812d15e3646dd0fcf4f7a7a1c656757f46df3b70cf44ce8611e3c41c3ff6f62",
+      "bytes": 11175
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3A2R_V0.0.2/predictions/P3A2R_WH_PREDICTIONS_PRE_GOLD.json",
+      "package_path": "data/p3/comparator/wh_predictions.json",
+      "sha256": "f2a47c948e11dbde28dba7009de93f60f418762c0840867755dd4cd15ecb6f2c",
+      "bytes": 11911
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3A2R_V0.0.2/predictions/P3A2R_FINAL_PREDICTION_FREEZE_SHA256.json",
+      "package_path": "data/p3/comparator/prediction_freeze.json",
+      "sha256": "4ea5d091c74e51dbb227b8d6bbc0796a342af94a9caca2e54e32e0ef2bddad0f",
+      "bytes": 425
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3A2R_V0.0.2/P3A2R_SCORE_RESULTS.json",
+      "package_path": "data/p3/comparator/original_score_results.json",
+      "sha256": "2885e6bb0064974580a9b4bcf0e2e35ed5256a22505ab5f8c3ab54606d4b6bba",
+      "bytes": 9084
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B1_V0.0.1/provenance/P3B1_EVALUATOR_GOLD_N8_OPENED_AFTER_PREDICTION_FREEZE.json",
+      "package_path": "data/p3/healthy_transfer/gold_n8.json",
+      "sha256": "a89933e2c41bf9926897bbe6e2a3d49ec054590a93d7f1ea9386f247d0c015cc",
+      "bytes": 1399
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B1_V0.0.1/predictions/P3B1_WH_PREDICTIONS_PRE_GOLD.json",
+      "package_path": "data/p3/healthy_transfer/wh_predictions.json",
+      "sha256": "75cc64b84074b7e5136c5dfeac5e0399f46ccd29825e0ccda56844667c286d6f",
+      "bytes": 14124
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B1_V0.0.1/predictions/P3B1_PREDICTION_FREEZE_SHA256.json",
+      "package_path": "data/p3/healthy_transfer/prediction_freeze.json",
+      "sha256": "72d6cb6450192eb671a2e92a6b62b3b1f387505f69507187d063c1e6c0568abe",
+      "bytes": 129
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B1_V0.0.1/adapter/P3B1_WH_ADAPTED_INPUT_N8.json",
+      "package_path": "data/p3/healthy_transfer/adapter_visible_input.json",
+      "sha256": "4e4a2f5e42b64a4ad715c3e2f3bde20a5c1156602984a8a41c3c443a045390d3",
+      "bytes": 14805
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B1_V0.0.1/P3B1_SCORE_RESULTS.json",
+      "package_path": "data/p3/healthy_transfer/original_score_results.json",
+      "sha256": "c8aaa4e0c01868416657ee935f593076faf5dd546a8792896a0a7937c797fc5a",
+      "bytes": 1065
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B2_V0.0.1/provenance/P3B2_EVALUATOR_GOLD_N20_OPENED_AFTER_PREDICTION_FREEZE.json",
+      "package_path": "data/p3/foreign_failure/gold_n20.json",
+      "sha256": "28687bfa1b64673118b9b3d6597a13deb9522fe540b116d969994cd05f3810c5",
+      "bytes": 6564
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B2_V0.0.1/predictions/P3B2_WH_PREDICTIONS_PRE_GOLD.json",
+      "package_path": "data/p3/foreign_failure/wh_predictions.json",
+      "sha256": "fa887fa6b58ad71ef9fc84c513f51bbf200c3a7c862d0335cdb1e9e7d6fcf226",
+      "bytes": 9307
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B2_V0.0.1/predictions/P3B2_FINAL_PREDICTION_FREEZE_SHA256.json",
+      "package_path": "data/p3/foreign_failure/prediction_freeze.json",
+      "sha256": "76ea1f692cc25e8426d7618abbffef4ab01052c04a793bfa814e7762e234d587",
+      "bytes": 156
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B2_V0.0.1/adapter/P3B2_WH_ADAPTED_INPUT_N20.json",
+      "package_path": "data/p3/foreign_failure/adapter_visible_input.json",
+      "sha256": "434368dfcf196a5719db15346af2db42d19700640a4368b9f90e632c82272b64",
+      "bytes": 41961
+    },
+    {
+      "source_path": "/mnt/data/AIDO-MOAT-WH_PRACTICAL3_P3B2_V0.0.1/P3B2_SCORE_RESULTS.json",
+      "package_path": "data/p3/foreign_failure/original_score_results.json",
+      "sha256": "01f733f277fd390035061fc1720e6c61b6291bf2283de3d65e243595a231c1b2",
+      "bytes": 3013
+    },
+    {
+      "source_path": "/mnt/data/p1final/repair_recommendation_v0_1.json",
+      "package_path": "data/r3/recommendation.json",
+      "sha256": "2bde56ff31310b31e0d17e712bcbdbb5a1264ab7a08738c2fdb54b83244a2f8d",
+      "bytes": 1993
+    },
+    {
+      "source_path": "/mnt/data/p1final/human_gate_authorization_p1j_v0_1.json",
+      "package_path": "data/r3/human_gate_authorization.json",
+      "sha256": "532fb36e028271004d2f61c80e47fdcdd1dcace29c052d33d6f2f9e3e37b6608",
+      "bytes": 469
+    },
+    {
+      "source_path": "/mnt/data/p1final/repair_verification_record_v0_1.json",
+      "package_path": "data/r3/repair_verification.json",
+      "sha256": "5beeb1c83d52eafe96fadb087a653d93e4ae5a4b2fc4910d30dec76a1a7cf76e",
+      "bytes": 473
+    }
+  ]
+}
