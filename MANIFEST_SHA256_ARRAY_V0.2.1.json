@@ -64,5 +64,15 @@
     "release_version": "0.2.1",
     "zenodo_doi": "10.5281/zenodo.22884399"
   },
-  "binding_cycle_note": "The immutable V0.2.1 release snapshot binds the exact pre-DOI V1.5 submission artifacts. V1.6 differs only by inserting the published V0.2.1 DOI/release identity and synchronizing SI metadata. This post-release derivative is recorded on repository main to avoid an infinite release↔manuscript self-reference cycle."
+  "binding_cycle_note": "The immutable V0.2.1 release snapshot binds the exact pre-DOI V1.5 submission artifacts. V1.6 differs only by inserting the published V0.2.1 DOI/release identity and synchronizing SI metadata. This post-release derivative is recorded on repository main to avoid an infinite release↔manuscript self-reference cycle.",
+  "final_submission_derivative": {
+    "status": "FORMAT_NORMALIZED_POST_RELEASE_DERIVATIVE",
+    "scientific_state_mutation": false,
+    "main_file": "WH_MAIN_ARRAY_V1.7_FORMAT_NORMALIZED_FINAL_CANDIDATE_2026-09-22.docx",
+    "main_sha256": "0042cb98a6267d5bcda6ac19878aafb3da1d4d87b37849a3fe6fddac5d317c76",
+    "si_file": "WH_SI_ARRAY_V1.7_FORMAT_NORMALIZED_FINAL_CANDIDATE_2026-09-22.docx",
+    "si_sha256": "1b2e8e6c5734a2b0219ce15aa2781b26b63002e0138f49d66a7a086756e658f8",
+    "highlights_file": "ARRAY_HIGHLIGHTS_V1.2_PORTAL_READY_2026-09-22.docx",
+    "note": "Formatting-only derivative after published v0.2.1: heading bold/alignment normalization, caption/table-note styling, SI table typography/header normalization, and reference left/hanging alignment. Paragraph text, table text, figures, scientific results, DOI, and claim boundaries unchanged."
+  }
 }
