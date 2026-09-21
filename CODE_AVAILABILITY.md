@@ -15,4 +15,4 @@ The package includes the exact surviving compiled historical V0.1 reference adju
 
 Public availability is now active for reproducibility review. Public availability does not grant reuse rights beyond those stated in `LICENSE`.
 
-DOI/archive binding and Array portal verification remain separate publication steps.
+The public package is archived at Zenodo: DOI 10.5281/zenodo.22879998 (https://doi.org/10.5281/zenodo.22879998). Array portal binding remains a separate submission step.
