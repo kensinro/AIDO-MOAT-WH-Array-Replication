@@ -6,8 +6,8 @@
     }
   ],
   "title": "AIDO-MOAT-WH Array Replication Package",
-  "description": "Public replication package for Evidence-Bounded Supervisory Diagnosis of Compositional Failures in Modular Software Systems. Public access supports scholarly verification and manuscript reproducibility; reuse rights remain governed by the repository LICENSE.",
-  "version": "0.2.0",
+  "description": "Public replication package for Evidence-Bounded Supervisory Diagnosis of Compositional Failures in Modular Software Systems. V0.2.1 is a release-identity repair that binds the exact V1.5 Main/SI and Highlights V1.2 artifacts; scientific payload and governed results are unchanged from V0.2.0.",
+  "version": "0.2.1",
   "upload_type": "software",
   "language": "eng",
   "keywords": [
