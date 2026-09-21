@@ -1,4 +1,4 @@
-# AIDO-MOAT-WH — Array Replication Package V0.2.0
+# AIDO-MOAT-WH — Array Replication Package V0.2.1
 
 Public replication package for the manuscript:
 
@@ -65,10 +65,21 @@ The public repository is an append-only clean release surface. The historical/pr
 See:
 
 - `MANIFEST_SHA256.json`
-- `MANIFEST_SHA256_ARRAY_V0.2.0.json`
+- `MANIFEST_SHA256_ARRAY_V0.2.1.json`
 - `CODE_AVAILABILITY.md`
 - `REPRODUCIBILITY.md`
 
 ## License
 
 See `LICENSE`. Public availability does not by itself grant reuse rights beyond those stated in the license file.
+
+
+## V0.2.1 release-identity repair
+
+V0.2.1 binds the public replication release to the exact current Array submission artifacts without changing the scientific payload:
+
+- Main V1.5 SHA-256: `9a59c6d735e70d759a9ec5997b1dd5124ecbf7054b48bc411472fe7d67551357`
+- SI V1.5 SHA-256: `466d7f24aa1af36955e29f678e26b51c2e0a1fcefbcace139cdb548a75717724`
+- Highlights V1.2 SHA-256: `48b43b9db9b17d0e502b34af5adfd5bffb56cb9e53b06220cd15e04a967f4e1b`
+
+The previous Zenodo V0.2.0 DOI is `10.5281/zenodo.22879998`. A new Zenodo version DOI will be bound after the V0.2.1 GitHub release is published and ingested.
