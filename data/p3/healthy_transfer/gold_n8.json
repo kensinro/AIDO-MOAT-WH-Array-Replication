@@ -1,0 +1,58 @@
+[
+  {
+    "case_id": "P3B-7K2M",
+    "panel_block": "exact_healthy",
+    "expected_disposition": "CLEAN",
+    "expected_failure": false,
+    "repair_required": false
+  },
+  {
+    "case_id": "P3B-Q4VX",
+    "panel_block": "exact_healthy",
+    "expected_disposition": "CLEAN",
+    "expected_failure": false,
+    "repair_required": false
+  },
+  {
+    "case_id": "P3B-2N8R",
+    "panel_block": "exact_healthy",
+    "expected_disposition": "CLEAN",
+    "expected_failure": false,
+    "repair_required": false
+  },
+  {
+    "case_id": "P3B-M5J1",
+    "panel_block": "exact_healthy",
+    "expected_disposition": "CLEAN",
+    "expected_failure": false,
+    "repair_required": false
+  },
+  {
+    "case_id": "P3B-X9C3",
+    "panel_block": "benign_foreign_variation",
+    "expected_disposition": "CLEAN",
+    "expected_failure": false,
+    "repair_required": false
+  },
+  {
+    "case_id": "P3B-R6T8",
+    "panel_block": "benign_foreign_variation",
+    "expected_disposition": "CLEAN",
+    "expected_failure": false,
+    "repair_required": false
+  },
+  {
+    "case_id": "P3B-B3W7",
+    "panel_block": "benign_foreign_variation",
+    "expected_disposition": "CLEAN",
+    "expected_failure": false,
+    "repair_required": false
+  },
+  {
+    "case_id": "P3B-L8P4",
+    "panel_block": "benign_foreign_variation",
+    "expected_disposition": "CLEAN",
+    "expected_failure": false,
+    "repair_required": false
+  }
+]
