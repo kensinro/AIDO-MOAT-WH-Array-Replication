@@ -1,0 +1,1993 @@
+{
+  "protocol": "AIDO-MOAT-WH1.X-GATE-3D.1",
+  "status": "GOLD_PATH_SEMANTICS_AUDIT_COMPLETE",
+  "gold_already_opened": true,
+  "prediction_bundle_sha256": "5d0cc805eefb353935b5b277f62610850f0f23e1e4a11bd64014b231d43e09f5",
+  "prediction_content_read_for_parser_choice": false,
+  "n_cases": 90,
+  "parse_pass_cases": 90,
+  "parse_fail_cases": 0,
+  "unmatched_auxiliary_parents": 0,
+  "cases": [
+    {
+      "parent_path": "RE2-TT/ts-auth-service_loss/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_loss",
+        "3"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-019DC004EE604B85057B"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_socket/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_socket",
+        "3"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-067891811378521C8AC8"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_mem/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_mem",
+        "2"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-0759B5CE41CE9DA4845E"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_socket/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_socket",
+        "2"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-0767DC19312651FCC609"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_disk/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_disk",
+        "3"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-0D354F8A4F2803301830"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_cpu/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_cpu",
+        "1"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-1107119E23A050466F04"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_socket/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_socket",
+        "1"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-120D5DA695F64910416B"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_delay/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_delay",
+        "1"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-122793A24F16C521DB27"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_disk/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_disk",
+        "3"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-127D051F27259C846010"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_socket/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_socket",
+        "1"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-129168830A535F95CE6D"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_mem/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_mem",
+        "3"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-1BAF29E00EE9041389FA"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_cpu/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_cpu",
+        "3"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-1FEEBA713962205C0E6D"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_loss/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_loss",
+        "2"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-2018A8DD89E3E902C19A"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_socket/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_socket",
+        "2"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-23055010CCFA485496EA"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_delay/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_delay",
+        "1"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-24A3A482CB067A6DEA1C"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_cpu/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_cpu",
+        "3"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-2577DE5D11EA1131A367"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_mem/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_mem",
+        "1"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-277AAA7024F87116D969"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_socket/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_socket",
+        "1"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-2913150D6C12FB2D6278"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_loss/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_loss",
+        "2"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-2CC5CC18A62776FD99E7"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_disk/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_disk",
+        "2"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-2ED599FC4D1B1D421CA2"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_disk/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_disk",
+        "2"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-30ABD6862FD396EFB5CD"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_mem/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_mem",
+        "2"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-32A9CCE3B303453D7F06"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_loss/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_loss",
+        "2"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-331BCCC9F57C654B0322"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_delay/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_delay",
+        "3"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-3554AB1DF4314C41D62D"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_socket/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_socket",
+        "3"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-3DFA2C4FD110646474A8"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_delay/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_delay",
+        "2"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-3EEF9379E6865690E901"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_delay/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_delay",
+        "2"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-4AF3039C1D8F51BA711B"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_loss/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_loss",
+        "3"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-4B090A1399BCE340BE7C"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_mem/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_mem",
+        "3"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-4CCE35B9624626E8A463"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_socket/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_socket",
+        "2"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-4DDC92FEC3DD8FF6D24F"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_delay/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_delay",
+        "2"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-4EF65F81F4D2CC29A7DC"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_disk/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_disk",
+        "3"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-51ADEF20659178E7484B"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_delay/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_delay",
+        "2"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-51B1828137FF808E2127"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_loss/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_loss",
+        "3"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-52B7640DA7336EA507DB"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_delay/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_delay",
+        "2"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-54C92674D0AA7A2A7E64"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_cpu/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_cpu",
+        "1"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-5B1FC78AC310ABAB7F9F"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_socket/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_socket",
+        "1"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-5BD5948720168F3217BC"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_cpu/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_cpu",
+        "1"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-68CF0DEE6AF53AA7BE9D"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_socket/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_socket",
+        "3"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-693B3A59D3D6D7A5B6E1"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_cpu/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_cpu",
+        "3"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-6C2CAE14B682A5F935EB"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_socket/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_socket",
+        "2"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-6E5724F2BBDBE06F0F83"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_delay/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_delay",
+        "3"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-70A586841484085C42B3"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_delay/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_delay",
+        "1"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-74C71A2703B23FE9F844"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_loss/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_loss",
+        "1"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-7863D8C04EE4942C4860"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_delay/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_delay",
+        "1"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-7BFB3A8E36BC8E9A87A0"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_socket/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_socket",
+        "2"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-7F0FA1CC3FCA6ABE5742"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_disk/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_disk",
+        "1"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-8227AACE5E15B91A2053"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_loss/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_loss",
+        "1"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-843298FC20130F410AD0"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_cpu/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_cpu",
+        "1"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-8631E0EBA74C283009C4"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_loss/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_loss",
+        "3"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-8831F5CE027723A3A5DB"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_loss/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_loss",
+        "2"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-8A5AB74C28FEB96F22F4"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_delay/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_delay",
+        "3"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-8B0987ED558581BCD4D9"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_loss/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_loss",
+        "2"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-8B2946E96435FF6E5AF3"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_socket/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_socket",
+        "3"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-8ED30782722293BDD390"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_mem/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_mem",
+        "2"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-8EEC9B05B40BD7B799C5"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_cpu/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_cpu",
+        "3"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-9124DF5B85F93D2D9760"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_cpu/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_cpu",
+        "1"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-925C82B520E4FDB251E7"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_mem/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_mem",
+        "3"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-95BA5EF61741D44A2580"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_disk/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_disk",
+        "1"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-9B3387ADD5A41767BAD7"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_cpu/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_cpu",
+        "2"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-A006543A6419950A793A"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_socket/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_socket",
+        "1"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-A8123ACD687256523000"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_mem/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_mem",
+        "3"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-A93251568B73FC6598A0"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_mem/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_mem",
+        "2"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-A9BDDEF861011409BA3F"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_loss/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_loss",
+        "1"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-ADACE2C75B5616411432"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_mem/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_mem",
+        "2"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-ADADFC198A2F3CCDED21"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_disk/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_disk",
+        "2"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-AE92A51E181473243CB3"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_delay/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_delay",
+        "3"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-B40184C764013E9C1739"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_disk/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_disk",
+        "3"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-B441AC697BB6E88CE705"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_socket/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_socket",
+        "3"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "socket"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-B536905CDF2672C585A8"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_cpu/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_cpu",
+        "2"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-B7A96D6EC5FAC945AC3D"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_cpu/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_cpu",
+        "2"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-B85186488EFEE3ADC1CD"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_disk/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_disk",
+        "1"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-B9D4B70F8CEB324E2D96"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_disk/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_disk",
+        "1"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-BC431241EAC492BE4726"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_loss/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_loss",
+        "3"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-C07FB26D73CEF026E7F5"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_cpu/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_cpu",
+        "2"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-C0ED6EF44216B9CB60E3"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_mem/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_mem",
+        "3"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-C20B815C626232583375"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_loss/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_loss",
+        "1"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-C5CEE036ABF97AD3B265"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_disk/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_disk",
+        "3"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-C9CBAD0EAE312214EAE8"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_loss/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_loss",
+        "1"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "loss"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-CB5DF1753537C883A465"
+    },
+    {
+      "parent_path": "RE2-TT/ts-order-service_mem/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-order-service_mem",
+        "1"
+      ],
+      "service_matches": [
+        "ts-order-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-D10C160B592D1AFC1D60"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_disk/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_disk",
+        "1"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-D11B786CB31DA49876EF"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_cpu/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_cpu",
+        "2"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-D2ADE6FB2B9F2D6FF6C9"
+    },
+    {
+      "parent_path": "RE2-TT/ts-auth-service_disk/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-auth-service_disk",
+        "2"
+      ],
+      "service_matches": [
+        "ts-auth-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-DB0024DBA76D23321118"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_delay/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_delay",
+        "3"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-E0C0A1F7454D96EEFD88"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_mem/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_mem",
+        "1"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-E69741C1EB2B9D1FFD79"
+    },
+    {
+      "parent_path": "RE2-TT/ts-route-service_cpu/3",
+      "path_components": [
+        "RE2-TT",
+        "ts-route-service_cpu",
+        "3"
+      ],
+      "service_matches": [
+        "ts-route-service"
+      ],
+      "fault_matches": [
+        "cpu"
+      ],
+      "repetition_matches": [
+        3
+      ],
+      "repetition_evidence_components": [
+        "3"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-F20FC1184DD13E62CFDC"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_mem/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_mem",
+        "1"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-FC18E610D48511ED7312"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_mem/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_mem",
+        "1"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "mem"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-FC3BA0E135A6A3E04777"
+    },
+    {
+      "parent_path": "RE2-TT/ts-train-service_disk/2",
+      "path_components": [
+        "RE2-TT",
+        "ts-train-service_disk",
+        "2"
+      ],
+      "service_matches": [
+        "ts-train-service"
+      ],
+      "fault_matches": [
+        "disk"
+      ],
+      "repetition_matches": [
+        2
+      ],
+      "repetition_evidence_components": [
+        "2"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-FE0E2EDD5533185AC4D7"
+    },
+    {
+      "parent_path": "RE2-TT/ts-travel-service_delay/1",
+      "path_components": [
+        "RE2-TT",
+        "ts-travel-service_delay",
+        "1"
+      ],
+      "service_matches": [
+        "ts-travel-service"
+      ],
+      "fault_matches": [
+        "delay"
+      ],
+      "repetition_matches": [
+        1
+      ],
+      "repetition_evidence_components": [
+        "1"
+      ],
+      "parse_pass": true,
+      "case_id": "TTCASE-FEB7A610CE7C09340FC9"
+    }
+  ]
+}
