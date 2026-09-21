@@ -14,7 +14,6 @@ Install the frozen baseline package and run the original Protocol 1–3 / R³ ch
 python -m pip install -e ".[test]"
 python -m wh_reference reproduce --data-root data --output artifacts
 pytest -q
-python -m wh_reference validate --repo-root .
 ```
 
 Run the Array-specific governed checks:
