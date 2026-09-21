@@ -1,0 +1,11 @@
+{
+  "gate_id": "HG-P1J-001",
+  "trial_id": "P1J-F13-R13-01",
+  "linked_repair_id": "R13-01",
+  "decision": "AUTHORIZE_SANDBOX_TRIAL",
+  "scope": "Isolated F13 toy-case sandbox only",
+  "production_repair_authorized": false,
+  "promotion_authorized": false,
+  "frozen_primary_overwrite_authorized": false,
+  "decision_basis": "Proceed to the next declared PRACTICAL stage to test the already-ranked R13-01 recommendation under the V0.3.3 repair-verification contract."
+}
