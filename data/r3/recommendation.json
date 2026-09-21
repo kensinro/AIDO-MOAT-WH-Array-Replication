@@ -1,0 +1,39 @@
+{
+  "repair_id": "R13-01",
+  "target": "M02_NORMALIZE / frozen normalization reference parameters",
+  "proposed_repair": "Restore the previously frozen normalization reference/configuration for M02 in an isolated sandbox run; do not alter the frozen primary artifacts.",
+  "rationale": "F13 diagnosis confirmed a centering-invariant breach at M02 while source and downstream-score-local explanations were rejected. Restoring the declared frozen reference directly addresses the diagnosed contract deviation with minimal scope.",
+  "expected_observable_change": [
+    "M02 centering invariant returns to its declared acceptable state.",
+    "M03 score_mean returns inside the calibrated toy-context envelope.",
+    "M03 score_max returns inside the calibrated toy-context envelope.",
+    "No new structural contract contradiction is introduced."
+  ],
+  "downstream_risk": "LOW_TO_MODERATE: normalization affects all downstream scores; incorrect restoration could shift M03 behavior.",
+  "sandbox_requirement": "REQUIRED",
+  "verification_plan": [
+    "Re-run M02 in a sandbox using the restored frozen normalization reference.",
+    "Recompute the M02 diagnostic centering invariant.",
+    "Propagate the sandbox output to M03 and recompute score_mean and score_max.",
+    "Compare M03 observables against the frozen calibrated envelope.",
+    "Re-run structural contract checks and compare pre/post provenance hashes."
+  ],
+  "acceptance_criterion": [
+    "M02 centering invariant = PASS.",
+    "M03 score_mean within calibrated interval.",
+    "M03 score_max within calibrated interval.",
+    "Structural contradiction count = 0.",
+    "No protected frozen primary artifact overwritten."
+  ],
+  "scores": {
+    "diagnostic_fit": 5,
+    "reversibility": 5,
+    "low_downstream_disruption": 4,
+    "verification_clarity": 5,
+    "low_new_failure_risk": 4
+  },
+  "weighted_utility": 0.93,
+  "human_gate_status": "PENDING",
+  "authorization_status": "NOT_AUTHORIZED",
+  "recommendation_rank": 1
+}
