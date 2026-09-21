@@ -34,7 +34,14 @@
     "historical_v01_source_file": "NOT_FOUND_ARCHIVAL_LIMITATION",
     "complete_historical_implementation_equivalence": "NOT_CLAIMED",
     "production_effectiveness": "NOT_CLAIMED",
-    "doi_archive": "PENDING",
+    "doi_archive": "PASS",
     "array_portal_binding": "PENDING"
+  },
+  "doi": "10.5281/zenodo.22879998",
+  "doi_url": "https://doi.org/10.5281/zenodo.22879998",
+  "github_release": {
+    "tag": "v0.2.0",
+    "url": "https://github.com/kensinro/AIDO-MOAT-WH-Array-Replication/releases/tag/v0.2.0",
+    "published": true
   }
 }
