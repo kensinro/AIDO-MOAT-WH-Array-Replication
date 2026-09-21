@@ -1,0 +1,437 @@
+{
+  "package_version": "0.1.0",
+  "protocol_1": {
+    "N": 100,
+    "action_accuracy": {
+      "d": 100,
+      "n": 95,
+      "rate": 0.95
+    },
+    "appropriate_abstention": {
+      "d": 20,
+      "n": 20,
+      "rate": 1.0
+    },
+    "causal_overclaim_on_underdetermined": {
+      "d": 20,
+      "n": 0,
+      "rate": 0.0
+    },
+    "detection_sensitivity": {
+      "d": 81,
+      "n": 77,
+      "rate": 0.9506172839506173
+    },
+    "exact_fault_set_localization": {
+      "d": 61,
+      "n": 52,
+      "rate": 0.8524590163934426
+    },
+    "governance_violations": 0,
+    "inspection_count": 26,
+    "novel_block": {
+      "N": 20,
+      "detection": {
+        "d": 20,
+        "n": 17,
+        "rate": 0.85
+      },
+      "localization": {
+        "d": 20,
+        "n": 12,
+        "rate": 0.6
+      },
+      "topology": {
+        "d": 20,
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    "repair_target_accuracy": {
+      "d": 52,
+      "n": 43,
+      "rate": 0.8269230769230769
+    },
+    "specificity": {
+      "d": 19,
+      "n": 18,
+      "rate": 0.9473684210526315
+    },
+    "topology_classification": {
+      "d": 100,
+      "n": 78,
+      "rate": 0.78
+    }
+  },
+  "protocol_2": {
+    "N": 240,
+    "blocks": {
+      "END_TO_END_GOVERNED_LEARNING_REUSE": {
+        "correct": 20,
+        "n": 20
+      },
+      "KNOWN_RETENTION": {
+        "correct": 20,
+        "n": 20
+      },
+      "LEARNING_PSEUDOREPLICATION_HOLD": {
+        "correct": 20,
+        "n": 20
+      },
+      "MINIMAL_CORE_LOCALIZATION": {
+        "correct": 20,
+        "n": 20
+      },
+      "NEW_COMBINATION_RETENTION": {
+        "correct": 20,
+        "n": 20
+      },
+      "NOVEL_CHARACTERIZATION_BUNDLE": {
+        "correct": 20,
+        "n": 20
+      },
+      "NOVEL_CHARACTERIZATION_SINGLETON": {
+        "correct": 20,
+        "n": 20
+      },
+      "NO_NOVELTY_SUPPORT": {
+        "correct": 20,
+        "n": 20
+      },
+      "TRUE_NOVEL_CALIBRATED": {
+        "correct": 20,
+        "n": 20
+      },
+      "TRUE_NOVEL_ENTITLED": {
+        "correct": 20,
+        "n": 20
+      },
+      "UNDERDETERMINED_MISSING_COMPOSITION": {
+        "correct": 20,
+        "n": 20
+      },
+      "UNDERDETERMINED_UNENTITLED_DECISIVE": {
+        "correct": 20,
+        "n": 20
+      }
+    },
+    "correct": 240,
+    "governance_detail": {
+      "historical_mutation": 0,
+      "rollback": 0,
+      "taxonomy_promotion": 0,
+      "wh_registry_mutation": 0
+    },
+    "governance_violations_from_rows": 0,
+    "key_endpoints": {
+      "autonomous_rollbacks": 0,
+      "characterization_chain_correct": 40,
+      "characterization_chain_n": 40,
+      "governed_learning_reuse_n": 20,
+      "governed_learning_reuse_success": 20,
+      "historical_state_mutations": 0,
+      "known_class_n": 20,
+      "known_class_retention": 20,
+      "minimal_core_exact": 20,
+      "minimal_core_n": 20,
+      "new_combination_accuracy": 20,
+      "new_combination_n": 20,
+      "nonnovel_control_correct": 60,
+      "nonnovel_control_n": 60,
+      "novelty_family_correct": 140,
+      "novelty_family_n": 140,
+      "premature_downstream_after_epistemic_stop": 0,
+      "pseudoreplication_holds": 20,
+      "pseudoreplication_n": 20,
+      "taxonomy_promotion_violations": 0,
+      "underdetermined_correct": 40,
+      "underdetermined_n": 40,
+      "wh_registry_mutations": 0
+    },
+    "regression_tests_passed": 175
+  },
+  "protocol_3_comparator": {
+    "FOC": {
+      "appropriate_hold_abstain": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "exact_fault_set_localization": {
+        "d": 20,
+        "n": 0,
+        "rate": 0.0
+      },
+      "failure_detection_sensitivity": {
+        "d": 28,
+        "n": 23,
+        "rate": 0.8214285714285714
+      },
+      "false_resolution": {
+        "d": 8,
+        "n": 0,
+        "rate": 0.0
+      },
+      "higher_order_correct_resolution": {
+        "d": 24,
+        "n": 0,
+        "rate": 0.0
+      },
+      "inspection_count": 0,
+      "repair_target_accuracy": {
+        "d": 0,
+        "n": 0,
+        "rate": null
+      },
+      "repair_target_coverage": {
+        "d": 12,
+        "n": 0,
+        "rate": 0.0
+      },
+      "specificity": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "topology_accuracy_when_resolved": {
+        "d": 0,
+        "n": 0,
+        "rate": null
+      },
+      "topology_resolution_coverage": {
+        "d": 32,
+        "n": 0,
+        "rate": 0.0
+      },
+      "unsupported_repair_target": {
+        "d": 20,
+        "n": 0,
+        "rate": 0.0
+      }
+    },
+    "MLC": {
+      "appropriate_hold_abstain": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "exact_fault_set_localization": {
+        "d": 20,
+        "n": 8,
+        "rate": 0.4
+      },
+      "failure_detection_sensitivity": {
+        "d": 28,
+        "n": 28,
+        "rate": 1.0
+      },
+      "false_resolution": {
+        "d": 8,
+        "n": 0,
+        "rate": 0.0
+      },
+      "higher_order_correct_resolution": {
+        "d": 24,
+        "n": 0,
+        "rate": 0.0
+      },
+      "inspection_count": 0,
+      "repair_target_accuracy": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "repair_target_coverage": {
+        "d": 12,
+        "n": 4,
+        "rate": 0.3333333333333333
+      },
+      "specificity": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "topology_accuracy_when_resolved": {
+        "d": 0,
+        "n": 0,
+        "rate": null
+      },
+      "topology_resolution_coverage": {
+        "d": 32,
+        "n": 0,
+        "rate": 0.0
+      },
+      "unsupported_repair_target": {
+        "d": 20,
+        "n": 4,
+        "rate": 0.2
+      }
+    },
+    "WH": {
+      "appropriate_hold_abstain": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "exact_fault_set_localization": {
+        "d": 20,
+        "n": 20,
+        "rate": 1.0
+      },
+      "failure_detection_sensitivity": {
+        "d": 28,
+        "n": 28,
+        "rate": 1.0
+      },
+      "false_resolution": {
+        "d": 8,
+        "n": 0,
+        "rate": 0.0
+      },
+      "higher_order_correct_resolution": {
+        "d": 24,
+        "n": 24,
+        "rate": 1.0
+      },
+      "inspection_count": 4,
+      "repair_target_accuracy": {
+        "d": 12,
+        "n": 12,
+        "rate": 1.0
+      },
+      "repair_target_coverage": {
+        "d": 12,
+        "n": 12,
+        "rate": 1.0
+      },
+      "specificity": {
+        "d": 4,
+        "n": 4,
+        "rate": 1.0
+      },
+      "topology_accuracy_when_resolved": {
+        "d": 32,
+        "n": 32,
+        "rate": 1.0
+      },
+      "topology_resolution_coverage": {
+        "d": 32,
+        "n": 32,
+        "rate": 1.0
+      },
+      "unsupported_repair_target": {
+        "d": 20,
+        "n": 0,
+        "rate": 0.0
+      }
+    }
+  },
+  "protocol_3_foreign_failure": {
+    "N": 20,
+    "appropriate_hold_abstain": {
+      "d": 2,
+      "n": 2,
+      "rate": 1.0
+    },
+    "exact_fault_localization_eligible": {
+      "d": 16,
+      "n": 16,
+      "rate": 1.0
+    },
+    "failure_detection_sensitivity": {
+      "d": 20,
+      "n": 20,
+      "rate": 1.0
+    },
+    "false_resolution_novel_or_underdetermined": {
+      "d": 4,
+      "n": 0,
+      "rate": 0.0
+    },
+    "governance_violations": 0,
+    "inspection_count": 4,
+    "novel_candidate_governance_correct": {
+      "d": 2,
+      "n": 2,
+      "rate": 1.0
+    },
+    "repair_target_accuracy_entitled_cases": {
+      "d": 8,
+      "n": 8,
+      "rate": 1.0
+    },
+    "representation_leakage_terms": [],
+    "topology_or_disposition_correctness": {
+      "d": 20,
+      "n": 20,
+      "rate": 1.0
+    },
+    "unsupported_repair_target": {
+      "d": 12,
+      "n": 0,
+      "rate": 0.0
+    }
+  },
+  "protocol_3_healthy_transfer": {
+    "N": 8,
+    "benign_variation_false_failure": {
+      "d": 4,
+      "n": 0,
+      "rate": 0.0
+    },
+    "clean_disposition_accuracy": {
+      "d": 8,
+      "n": 8,
+      "rate": 1.0
+    },
+    "governance_violations": 0,
+    "healthy_false_failure": {
+      "d": 8,
+      "n": 0,
+      "rate": 0.0
+    },
+    "reference_difference_cases": [
+      {
+        "case_id": "P3B-X9C3",
+        "observables": [
+          "capture_rms"
+        ],
+        "still_accepted": true
+      },
+      {
+        "case_id": "P3B-R6T8",
+        "observables": [
+          "capture_rms"
+        ],
+        "still_accepted": true
+      },
+      {
+        "case_id": "P3B-B3W7",
+        "observables": [
+          "spectral_purity",
+          "fusion_consistency",
+          "decision_score"
+        ],
+        "still_accepted": true
+      }
+    ],
+    "reference_difference_cases_accepted": 3,
+    "representation_leakage_terms": [],
+    "unsupported_repair_recommendations": 0
+  },
+  "r3": {
+    "acceptance_checks": {
+      "d": 6,
+      "n": 6,
+      "rate": 1.0
+    },
+    "authorized_scope": "Isolated F13 toy-case sandbox only",
+    "closed": true,
+    "closure_state": "RESOLVED",
+    "human_gate_decision": "AUTHORIZE_SANDBOX_TRIAL",
+    "production_promotion_state": "NOT_PROMOTED_TO_PRODUCTION",
+    "protected_artifacts_unchanged": true,
+    "recommendation_gate_state": "PENDING",
+    "recommendation_id": "R13-01"
+  }
+}
