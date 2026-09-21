@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aido-moat-wh-reference"
+version = "0.2.0"
+description = "Reference reproducibility package for evidence-bounded supervisory diagnosis in modular software systems"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Sin Guan Kong"}]
+keywords = ["software reliability", "fault diagnosis", "reproducibility", "provenance", "human gate"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+wh-reference = "wh_reference.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
