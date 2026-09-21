@@ -1,0 +1,45 @@
+{
+  "protocol": "AIDO-MOAT-WH1.X-GATE-3D.2",
+  "status": "CONFIRMATORY_SCORE_ONLY_COMPLETE",
+  "gold_opened": true,
+  "n_cases": 90,
+  "prediction_bundle_sha256": "5d0cc805eefb353935b5b277f62610850f0f23e1e4a11bd64014b231d43e09f5",
+  "gold_mapping_sha256": "7a2431b7163809bc6abb9a38daf54fef1e4b7cccf37f35a50d30a9d7b3d281cc",
+  "score_contract_sha256": "04617674f68c6c8006a6e92a78c5e588d6f82e8b2ff6bf8da867f7e7be803dee",
+  "primary_endpoints": {
+    "exact_source_entitlement_n": 2,
+    "exact_source_entitlement_coverage": 0.022222222222222223,
+    "exact_selective_correct_n": 2,
+    "exact_selective_accuracy": 1.0,
+    "false_exact_entitlement_events_n": 0,
+    "false_exact_entitlement_events_per_90": 0.0,
+    "UNDERDETERMINED_n": 83,
+    "ABSTAIN_n": 5,
+    "HOLD_n": 0,
+    "K2_status": "DISABLED_NA",
+    "source_topology_separability_cross_tab": [
+      {
+        "source_state": "ABSTAIN",
+        "topology_state": "TOPOLOGY_UNDERDETERMINED",
+        "n": 5
+      },
+      {
+        "source_state": "EXACT_SOURCE_ENTITLED",
+        "topology_state": "TOPOLOGY_UNDERDETERMINED",
+        "n": 2
+      },
+      {
+        "source_state": "UNDERDETERMINED",
+        "topology_state": "TOPOLOGY_UNDERDETERMINED",
+        "n": 83
+      }
+    ]
+  },
+  "confirmatory_support_criterion": {
+    "rule": "non-zero exact-source entitlement AND zero false exact-source entitlement events",
+    "support": true
+  },
+  "claim_ceiling": "Controlled injected-failure third-party external benchmark confirmation; not production-incident validation.",
+  "post_gold_tuning_permitted": false,
+  "re2tt_future_role": "OPENED_CONFIRMATORY_EVIDENCE_NOT_ELIGIBLE_AS_FUTURE_UNTOUCHED_CONFIRMATION"
+}
