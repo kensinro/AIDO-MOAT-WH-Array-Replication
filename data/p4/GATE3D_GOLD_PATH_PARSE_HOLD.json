@@ -1,0 +1,368 @@
+{
+  "status": "GOLD_OPENED_BUT_MAPPING_PARSE_HOLD",
+  "gold_opened": true,
+  "n_parse_fail": 90,
+  "parse_failures": [
+    {
+      "case_id": "TTCASE-019DC004EE604B85057B",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-067891811378521C8AC8",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-0759B5CE41CE9DA4845E",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-0767DC19312651FCC609",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-0D354F8A4F2803301830",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-1107119E23A050466F04",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-120D5DA695F64910416B",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-122793A24F16C521DB27",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-127D051F27259C846010",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-129168830A535F95CE6D",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-1BAF29E00EE9041389FA",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-1FEEBA713962205C0E6D",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-2018A8DD89E3E902C19A",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-23055010CCFA485496EA",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-24A3A482CB067A6DEA1C",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-2577DE5D11EA1131A367",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-277AAA7024F87116D969",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-2913150D6C12FB2D6278",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-2CC5CC18A62776FD99E7",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-2ED599FC4D1B1D421CA2",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-30ABD6862FD396EFB5CD",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-32A9CCE3B303453D7F06",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-331BCCC9F57C654B0322",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-3554AB1DF4314C41D62D",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-3DFA2C4FD110646474A8",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-3EEF9379E6865690E901",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-4AF3039C1D8F51BA711B",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-4B090A1399BCE340BE7C",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-4CCE35B9624626E8A463",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-4DDC92FEC3DD8FF6D24F",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-4EF65F81F4D2CC29A7DC",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-51ADEF20659178E7484B",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-51B1828137FF808E2127",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-52B7640DA7336EA507DB",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-54C92674D0AA7A2A7E64",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-5B1FC78AC310ABAB7F9F",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-5BD5948720168F3217BC",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-68CF0DEE6AF53AA7BE9D",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-693B3A59D3D6D7A5B6E1",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-6C2CAE14B682A5F935EB",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-6E5724F2BBDBE06F0F83",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-70A586841484085C42B3",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-74C71A2703B23FE9F844",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-7863D8C04EE4942C4860",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-7BFB3A8E36BC8E9A87A0",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-7F0FA1CC3FCA6ABE5742",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-8227AACE5E15B91A2053",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-843298FC20130F410AD0",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-8631E0EBA74C283009C4",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-8831F5CE027723A3A5DB",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-8A5AB74C28FEB96F22F4",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-8B0987ED558581BCD4D9",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-8B2946E96435FF6E5AF3",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-8ED30782722293BDD390",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-8EEC9B05B40BD7B799C5",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-9124DF5B85F93D2D9760",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-925C82B520E4FDB251E7",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-95BA5EF61741D44A2580",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-9B3387ADD5A41767BAD7",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-A006543A6419950A793A",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-A8123ACD687256523000",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-A93251568B73FC6598A0",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-A9BDDEF861011409BA3F",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-ADACE2C75B5616411432",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-ADADFC198A2F3CCDED21",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-AE92A51E181473243CB3",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-B40184C764013E9C1739",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-B441AC697BB6E88CE705",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-B536905CDF2672C585A8",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-B7A96D6EC5FAC945AC3D",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-B85186488EFEE3ADC1CD",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-B9D4B70F8CEB324E2D96",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-BC431241EAC492BE4726",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-C07FB26D73CEF026E7F5",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-C0ED6EF44216B9CB60E3",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-C20B815C626232583375",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-C5CEE036ABF97AD3B265",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-C9CBAD0EAE312214EAE8",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-CB5DF1753537C883A465",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-D10C160B592D1AFC1D60",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-D11B786CB31DA49876EF",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-D2ADE6FB2B9F2D6FF6C9",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-DB0024DBA76D23321118",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-E0C0A1F7454D96EEFD88",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-E69741C1EB2B9D1FFD79",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-F20FC1184DD13E62CFDC",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-FC18E610D48511ED7312",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-FC3BA0E135A6A3E04777",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-FE0E2EDD5533185AC4D7",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    },
+    {
+      "case_id": "TTCASE-FEB7A610CE7C09340FC9",
+      "error": "GOLD_PATH_PATTERN_NOT_UNIQUE"
+    }
+  ],
+  "note": "Do not alter predictions or thresholds. Return this HOLD artifact for adjudication."
+}
