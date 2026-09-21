@@ -82,4 +82,4 @@ V0.2.1 binds the public replication release to the exact current Array submissio
 - SI V1.5 SHA-256: `466d7f24aa1af36955e29f678e26b51c2e0a1fcefbcace139cdb548a75717724`
 - Highlights V1.2 SHA-256: `48b43b9db9b17d0e502b34af5adfd5bffb56cb9e53b06220cd15e04a967f4e1b`
 
-The previous Zenodo V0.2.0 DOI is `10.5281/zenodo.22879998`. A new Zenodo version DOI will be bound after the V0.2.1 GitHub release is published and ingested.
+The previous Zenodo V0.2.0 DOI is `10.5281/zenodo.22879998`. Zenodo V0.2.1 version DOI: `10.5281/zenodo.22884399` (https://doi.org/10.5281/zenodo.22884399).
