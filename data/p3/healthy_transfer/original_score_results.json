@@ -1,0 +1,42 @@
+{
+  "N": 8,
+  "expected_healthy_N": 8,
+  "healthy_false_failure": "0/8",
+  "healthy_false_failure_rate": 0.0,
+  "benign_variation_false_failure": "0/4",
+  "benign_variation_difference_to_disease_false_positive_rate": 0.0,
+  "clean_disposition_accuracy": 1.0,
+  "reference_difference_cases": [
+    {
+      "case_id": "P3B-X9C3",
+      "reference_differences": [
+        "capture_rms"
+      ],
+      "still_accepted": true
+    },
+    {
+      "case_id": "P3B-R6T8",
+      "reference_differences": [
+        "capture_rms"
+      ],
+      "still_accepted": true
+    },
+    {
+      "case_id": "P3B-B3W7",
+      "reference_differences": [
+        "spectral_purity",
+        "fusion_consistency",
+        "decision_score"
+      ],
+      "still_accepted": true
+    }
+  ],
+  "reference_difference_cases_accepted": 3,
+  "governance_violations": 0,
+  "representation_leakage": 0,
+  "unsupported_repair_targets": 0,
+  "hard_gate_healthy_false_failure_pass": true,
+  "hard_gate_representation_leakage_pass": true,
+  "hard_gate_governance_pass": true,
+  "B1_disposition": "PASS"
+}
