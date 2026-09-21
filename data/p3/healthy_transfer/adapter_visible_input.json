@@ -1,0 +1,658 @@
+[
+  {
+    "case_id": "P3B-7K2M",
+    "system_manifest": {
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1",
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ]
+    },
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.7146209062389368
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9938788914283493
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.7149274145638659
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9975515565713398
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.9947970577140969
+      }
+    },
+    "context": {
+      "native_configuration": {
+        "n_samples": 256,
+        "sample_rate_hz": 128.0,
+        "amplitude": 1.0,
+        "noise_std": 0.08,
+        "phase": 0.34536304309506716,
+        "baseline": 0.05,
+        "frequency_hz": 8.0,
+        "transient_amp": 0.12
+      }
+    },
+    "provenance": {
+      "seed": 91001,
+      "source": "P3B1 generated native run",
+      "configuration_hash": "301b435e6fd924b4a77daca287563c581f56a4c35ac770de6ce7130227eeec58"
+    }
+  },
+  {
+    "case_id": "P3B-Q4VX",
+    "system_manifest": {
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1",
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ]
+    },
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.7125914105592068
+      },
+      "N10_CENTER": {
+        "center_residual": 6.938893903907228e-18
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9948857439215453
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.718165973363272
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9979542975686181
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.9956528823333135
+      }
+    },
+    "context": {
+      "native_configuration": {
+        "n_samples": 256,
+        "sample_rate_hz": 128.0,
+        "amplitude": 1.0,
+        "noise_std": 0.08,
+        "phase": -0.142268937417165,
+        "baseline": 0.05,
+        "frequency_hz": 8.0,
+        "transient_amp": 0.12
+      }
+    },
+    "provenance": {
+      "seed": 91002,
+      "source": "P3B1 generated native run",
+      "configuration_hash": "9ea4d578316220a381f32b5603ab14d2f123a918c3f6a649367c985a2ec08d99"
+    }
+  },
+  {
+    "case_id": "P3B-2N8R",
+    "system_manifest": {
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1",
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ]
+    },
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.7170273650431386
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9942801405579333
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.6753660910373583
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9977120562231734
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.9951381194742435
+      }
+    },
+    "context": {
+      "native_configuration": {
+        "n_samples": 256,
+        "sample_rate_hz": 128.0,
+        "amplitude": 1.0,
+        "noise_std": 0.08,
+        "phase": -0.10832631194752684,
+        "baseline": 0.05,
+        "frequency_hz": 8.0,
+        "transient_amp": 0.12
+      }
+    },
+    "provenance": {
+      "seed": 91003,
+      "source": "P3B1 generated native run",
+      "configuration_hash": "ff864ac4ce51ea8388fecc5db9180339bae5de2dfc1a9158eb9535a0779e53fb"
+    }
+  },
+  {
+    "case_id": "P3B-M5J1",
+    "system_manifest": {
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1",
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ]
+    },
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.7193222510809476
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9939265160746784
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.7312007101755661
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9975706064298714
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.9948375386634767
+      }
+    },
+    "context": {
+      "native_configuration": {
+        "n_samples": 256,
+        "sample_rate_hz": 128.0,
+        "amplitude": 1.0,
+        "noise_std": 0.08,
+        "phase": 0.1910662588443306,
+        "baseline": 0.05,
+        "frequency_hz": 8.0,
+        "transient_amp": 0.12
+      }
+    },
+    "provenance": {
+      "seed": 91004,
+      "source": "P3B1 generated native run",
+      "configuration_hash": "8fb0b2474f7906dfe04132ab30bdef3b6da4277785ebe32f497d2c2d7550c617"
+    }
+  },
+  {
+    "case_id": "P3B-X9C3",
+    "system_manifest": {
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1",
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ]
+    },
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.6676031785467411
+      },
+      "N10_CENTER": {
+        "center_residual": 3.469446951953614e-18
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9923890094660021
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.7210068902900858
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9969556037864008
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.9935306580461017
+      }
+    },
+    "context": {
+      "native_configuration": {
+        "n_samples": 256,
+        "sample_rate_hz": 128.0,
+        "amplitude": 0.94,
+        "noise_std": 0.08,
+        "phase": -0.3589613409134709,
+        "baseline": 0.05,
+        "frequency_hz": 8.0,
+        "transient_amp": 0.12
+      }
+    },
+    "provenance": {
+      "seed": 92001,
+      "source": "P3B1 generated native run",
+      "configuration_hash": "5c94d97bb55c80fdcc74c1d067576f3bd0aca2a5032ee0529a6b1e4a5f499e96"
+    }
+  },
+  {
+    "case_id": "P3B-R6T8",
+    "system_manifest": {
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1",
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ]
+    },
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.7587743211585916
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9936643219082317
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.685411666190345
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9974657287632926
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.994614673621997
+      }
+    },
+    "context": {
+      "native_configuration": {
+        "n_samples": 256,
+        "sample_rate_hz": 128.0,
+        "amplitude": 1.07,
+        "noise_std": 0.08,
+        "phase": -0.2314515446966234,
+        "baseline": 0.05,
+        "frequency_hz": 8.0,
+        "transient_amp": 0.12
+      }
+    },
+    "provenance": {
+      "seed": 92002,
+      "source": "P3B1 generated native run",
+      "configuration_hash": "c5a58add3a3a2bd13cd223b8cab056578dab9412f10ea4de16ae54b67e4f1c50"
+    }
+  },
+  {
+    "case_id": "P3B-B3W7",
+    "system_manifest": {
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1",
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ]
+    },
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.7186698503252851
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9904713086658494
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.7513368091332544
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9961885234663398
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.9919006123659719
+      }
+    },
+    "context": {
+      "native_configuration": {
+        "n_samples": 256,
+        "sample_rate_hz": 128.0,
+        "amplitude": 1.0,
+        "noise_std": 0.1,
+        "phase": 0.1415704501975188,
+        "baseline": 0.05,
+        "frequency_hz": 8.0,
+        "transient_amp": 0.12
+      }
+    },
+    "provenance": {
+      "seed": 92003,
+      "source": "P3B1 generated native run",
+      "configuration_hash": "af54ab1c909cf9c90f686e46da38fe5fee52616b3ae8d1e2fff9c28391d1768a"
+    }
+  },
+  {
+    "case_id": "P3B-L8P4",
+    "system_manifest": {
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1",
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ]
+    },
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.7193477701391234
+      },
+      "N10_CENTER": {
+        "center_residual": 3.469446951953614e-18
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9942440750659078
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.7038605855801657
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9976976300263631
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.9951074638060217
+      }
+    },
+    "context": {
+      "native_configuration": {
+        "n_samples": 256,
+        "sample_rate_hz": 128.0,
+        "amplitude": 1.0,
+        "noise_std": 0.08,
+        "phase": 1.2,
+        "baseline": 0.05,
+        "frequency_hz": 8.0,
+        "transient_amp": 0.12
+      }
+    },
+    "provenance": {
+      "seed": 92004,
+      "source": "P3B1 generated native run",
+      "configuration_hash": "05463acabb6037332f4f2fc6d649e87858f05bca29188481fd45172f2603ac1e"
+    }
+  }
+]
