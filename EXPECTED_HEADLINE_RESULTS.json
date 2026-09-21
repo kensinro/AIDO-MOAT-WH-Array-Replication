@@ -1,0 +1,51 @@
+{
+  "protocol_1": {
+    "detection": "77/81",
+    "specificity": "18/19",
+    "localization": "52/61",
+    "topology": "78/100",
+    "abstention": "20/20",
+    "novel_detection": "17/20",
+    "novel_localization": "12/20",
+    "novel_topology": "0/20",
+    "governance_violations": 0
+  },
+  "protocol_2": {
+    "panel": "240/240",
+    "regression": "175/175",
+    "known": "20/20",
+    "new_combination": "20/20",
+    "underdetermined": "40/40",
+    "nonnovel_controls": "60/60",
+    "minimal_core": "20/20",
+    "characterization": "40/40",
+    "governed_reuse": "20/20",
+    "pseudoreplication_hold": "20/20",
+    "governance_violations": 0
+  },
+  "protocol_3_comparator": {
+    "FOC_detection": "23/28",
+    "MLC_detection": "28/28",
+    "WH_detection": "28/28",
+    "FOC_localization": "0/20",
+    "MLC_localization": "8/20",
+    "WH_localization": "20/20",
+    "WH_repair_coverage": "12/12",
+    "WH_higher_order": "24/24",
+    "WH_unsupported_repair": "0/20"
+  },
+  "protocol_3_transfer": {
+    "healthy_false_failure": "0/8",
+    "foreign_detection": "20/20",
+    "eligible_localization": "16/16",
+    "topology_disposition": "20/20",
+    "false_resolution": "0/4",
+    "unsupported_repair": "0/12",
+    "governance_violations": 0
+  },
+  "r3": {
+    "acceptance_checks": "6/6",
+    "closure_state": "RESOLVED",
+    "promotion_state": "NOT_PROMOTED_TO_PRODUCTION"
+  }
+}
