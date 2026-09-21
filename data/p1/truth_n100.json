@@ -1,0 +1,1200 @@
+{
+  "panel_version": "P1M-V0.1",
+  "sealed_for_scoring_only": true,
+  "cases": [
+    {
+      "case_id": "STRESS-001",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-002",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-003",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-004",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-005",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "topology": "CUMULATIVE_PATH",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-006",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-007",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-008",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "SYNERGISTIC_INTERACTION",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-009",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-010",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-011",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-012",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "topology": "CUMULATIVE_PATH",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-013",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "SEQUENTIAL_CASCADE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-014",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "topology": "CUMULATIVE_PATH",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-015",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-016",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-017",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-018",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "COMPENSATED_FAILURE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-019",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-020",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-021",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-022",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-023",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "topology": "CUMULATIVE_PATH",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-024",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-025",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "topology": "CUMULATIVE_PATH",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-026",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "L04_SCORE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "L04_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-027",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "LATENT_FAILURE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-028",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-029",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "LATENT_FAILURE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-030",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-031",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "PARTIAL_MASKING",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-032",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-033",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-034",
+      "stress_block": "FAMILIAR",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-035",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "SYNERGISTIC_INTERACTION",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-036",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "topology": "CUMULATIVE_PATH",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-037",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "COMPENSATED_FAILURE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-038",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "PARTIAL_MASKING",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-039",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-040",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "PATH_CUMULATIVE"
+      ],
+      "topology": "CUMULATIVE_PATH",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-041",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "topology": "SYNERGISTIC_INTERACTION",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-042",
+      "stress_block": "FAMILIAR",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-043",
+      "stress_block": "FAMILIAR",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-044",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-045",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-046",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-047",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-048",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-049",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "PARTIAL_MASKING",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-050",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-051",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-052",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "L03_FEATURE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "L03_FEATURE"
+      ]
+    },
+    {
+      "case_id": "STRESS-053",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-054",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "SEQUENTIAL_CASCADE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-055",
+      "stress_block": "FAMILIAR",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-056",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-057",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SEQUENTIAL_CASCADE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-058",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-059",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-060",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-061",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-062",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-063",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-064",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "topology": "SYNERGISTIC_INTERACTION",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-065",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-066",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "LATENT_FAILURE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-067",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-068",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-069",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-070",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-071",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-072",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ],
+      "topology": "MULTI_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE",
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-073",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "MULTI_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-074",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-075",
+      "stress_block": "UNDERDETERMINED",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-076",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-077",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-078",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SEQUENTIAL_CASCADE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-079",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-080",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "LATENT_FAILURE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-081",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-082",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "SEQUENTIAL_CASCADE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-083",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-084",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-085",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-086",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "SYNERGISTIC_INTERACTION",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-087",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "PARTIAL_MASKING",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-088",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-089",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-090",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-091",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-092",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "LATENT_FAILURE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-093",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M03_SCORE"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-094",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "UNDERDETERMINED",
+      "correct_action": "ABSTAIN",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-095",
+      "stress_block": "NOVEL",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ],
+      "topology": "PARTIAL_MASKING",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M02_NORMALIZE"
+      ]
+    },
+    {
+      "case_id": "STRESS-096",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-097",
+      "stress_block": "BOUNDARY",
+      "fault": false,
+      "fault_set": [],
+      "topology": "CLEAN",
+      "correct_action": "PROCEED",
+      "repair_targets": []
+    },
+    {
+      "case_id": "STRESS-098",
+      "stress_block": "FAMILIAR",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD",
+        "M03_SCORE"
+      ],
+      "topology": "MULTI_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD",
+        "M03_SCORE"
+      ]
+    },
+    {
+      "case_id": "STRESS-099",
+      "stress_block": "AMBIGUOUS",
+      "fault": true,
+      "fault_set": [
+        "M01_LOAD"
+      ],
+      "topology": "EQUIFINAL_RESOLVED_SINGLE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M01_LOAD"
+      ]
+    },
+    {
+      "case_id": "STRESS-100",
+      "stress_block": "BOUNDARY",
+      "fault": true,
+      "fault_set": [
+        "M02_NORMALIZE"
+      ],
+      "topology": "SINGLE_SOURCE",
+      "correct_action": "DIAGNOSE",
+      "repair_targets": [
+        "M02_NORMALIZE"
+      ]
+    }
+  ]
+}
