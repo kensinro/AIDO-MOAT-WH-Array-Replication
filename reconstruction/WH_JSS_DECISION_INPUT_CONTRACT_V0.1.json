@@ -1,0 +1,94 @@
+{
+  "contract_id": "WH-JSS-DECISION-INPUT-V0.1",
+  "purpose": "Define how pipeline-specific evidence is converted into the normalized three-valued primitive predicates consumed by the WH core adjudication procedure.",
+  "tri_state": ["TRUE", "FALSE", "UNKNOWN"],
+  "hard_rule": "A pipeline-specific predicate contract must expose evidence fields, operator/categorical rule, threshold or allowed set where applicable, direction/polarity, missingness behavior, provenance/version, and output semantics. Missing mandatory evidence maps to UNKNOWN unless a separate integrity rule makes the object inadmissible.",
+  "primitive_predicates": [
+    {
+      "id": "P01_MODULE_HARD_CONTRACT_STATE",
+      "input": "all declared required hard-contract subpredicates for module m",
+      "rule": "FAIL if any admissible subpredicate FAIL; PASS if all required subpredicates PASS; UNKNOWN if none FAIL and at least one mandatory subpredicate UNKNOWN",
+      "output": ["PASS", "FAIL", "UNKNOWN"]
+    },
+    {
+      "id": "P02_DIRECT_SOURCE_FAILURE",
+      "input": "P01 for module m",
+      "rule": "TRUE iff P01=FAIL; FALSE iff P01=PASS; UNKNOWN iff P01=UNKNOWN",
+      "output": ["TRUE", "FALSE", "UNKNOWN"]
+    },
+    {
+      "id": "P03_DEPENDENCY_REACHABILITY",
+      "input": "admissible directed manifest graph, source module, affected node/invariant",
+      "rule": "TRUE iff a declared directed path exists; FALSE iff graph is admissible and no path exists; UNKNOWN if required graph relation is not admissible/evaluable",
+      "output": ["TRUE", "FALSE", "UNKNOWN"]
+    },
+    {
+      "id": "P04_PATH_OR_GLOBAL_INVARIANT_STATE",
+      "input": "versioned acceptance/invariant contract + declared evidence fields",
+      "rule": "Evaluate the contract operator exactly; FAIL denotes invariant violation, PASS denotes satisfaction, UNKNOWN denotes missing/unevaluable mandatory input",
+      "output": ["PASS", "FAIL", "UNKNOWN"]
+    },
+    {
+      "id": "P05_ENDPOINT_ACCEPTANCE",
+      "input": "versioned Acceptance Profile + endpoint observable(s)",
+      "rule": "Apply declared operator/threshold/category; TRUE=accepted, FALSE=not accepted, UNKNOWN=mandatory input not evaluable",
+      "output": ["TRUE", "FALSE", "UNKNOWN"]
+    },
+    {
+      "id": "P06_OPPOSING_OR_OFFSETTING_INFLUENCE",
+      "input": "admissible influence/provenance relation, declared sign/direction rule, upstream abnormality, downstream/endpoint evidence",
+      "rule": "TRUE only when the frozen influence rule establishes an opposing/attenuating relation sufficient to explain masking; FALSE when the relation is contradicted; UNKNOWN when a required relation/sign/direction is unavailable",
+      "output": ["TRUE", "FALSE", "UNKNOWN"]
+    },
+    {
+      "id": "P07_MINIMAL_EXPLANATORY_SOURCE_SETS",
+      "input": "admissible candidate sources, dependency/path relations, observed downstream violations, path/global invariants, influence/provenance constraints",
+      "rule": "Enumerate bounded source sets satisfying Section 2.4.6 explanation constraints, then remove every strict superset whose proper subset also satisfies the constraints",
+      "output": "family of minimal source sets; unresolved family retained"
+    },
+    {
+      "id": "P08_KNOWN_PRIMITIVE_DECOMPOSABLE",
+      "input": "topology-defining relations in Z + frozen primitive registry",
+      "rule": "TRUE iff every topology-defining relation maps to a frozen primitive without introducing an unregistered relation/operator; FALSE if at least one relation is unmapped; UNKNOWN if relation identity is not evaluable",
+      "output": ["TRUE", "FALSE", "UNKNOWN"]
+    },
+    {
+      "id": "P09_MATERIAL_STRUCTURAL_RESIDUAL",
+      "input": "topology-defining relations in Z, compatible known topologies, primitive-decomposition result",
+      "rule": "PRESENT iff a non-empty admissible relation set remains after known-topology representation and complete known-primitive decomposition; ABSENT iff none remains; UNKNOWN if required relation identity is unevaluable",
+      "output": ["PRESENT", "ABSENT", "UNKNOWN"]
+    },
+    {
+      "id": "P10_INSPECTION_ELIGIBLE",
+      "input": "predeclared inspection catalog + current UNKNOWN/competing decision predicate(s) + governance state",
+      "rule": "TRUE iff at least one predeclared inspection can change a current decision-relevant UNKNOWN/competition and opening is authorized by the inspection contract; rank by higher discrimination, lower cost, stable ID",
+      "output": ["TRUE", "FALSE"]
+    },
+    {
+      "id": "P11_REPAIR_MAPPING_AND_VERIFICATION",
+      "input": "supported exact target + versioned repair mapping + falsifiable verification plan",
+      "rule": "recommendation-sufficient only when all three exist at compatible granularity",
+      "output": ["SUFFICIENT", "INSUFFICIENT"]
+    },
+    {
+      "id": "P12_REAUDIT_CLOSURE_INPUT",
+      "input": "authorized execution record + all prespecified re-audit predicates + protected-state invariants",
+      "rule": "RESOLVED iff all mandatory checks PASS and protected invariants intact; any FAIL -> REOPENED_NOT_RESOLVED; mandatory UNKNOWN/unavailable -> HOLD",
+      "output": ["RESOLVED", "REOPENED_NOT_RESOLVED", "HOLD"]
+    }
+  ],
+  "pipeline_specific_predicate_contract_required_fields": [
+    "predicate_id",
+    "input_evidence_fields",
+    "data_type",
+    "operator_or_categorical_rule",
+    "threshold_or_allowed_set_if_applicable",
+    "direction_or_polarity",
+    "missingness_behavior",
+    "integrity_precondition",
+    "provenance_source",
+    "effective_version",
+    "calibration_or_reference_source_if_applicable"
+  ],
+  "boundary": "WH core does not impose universal domain thresholds. Pipeline-specific thresholds and categorical acceptance rules remain external, versioned contracts; the core consumes their auditable TRUE/FALSE/UNKNOWN or PASS/FAIL/UNKNOWN outputs."
+}
