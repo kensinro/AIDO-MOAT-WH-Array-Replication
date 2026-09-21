@@ -15,7 +15,7 @@ The package includes the exact surviving compiled historical V0.1 reference adju
 
 Public availability is now active for reproducibility review. Public availability does not grant reuse rights beyond those stated in `LICENSE`.
 
-The public package is archived at Zenodo: DOI 10.5281/zenodo.22879998 (https://doi.org/10.5281/zenodo.22879998). Array portal binding remains a separate submission step.
+The current V0.2.1 public package is archived at Zenodo: DOI 10.5281/zenodo.22884399 (https://doi.org/10.5281/zenodo.22884399). The preceding V0.2.0 version remains archived at DOI 10.5281/zenodo.22879998. Array portal binding remains a separate submission step.
 
 
 ## V0.2.1 manuscript binding
@@ -26,4 +26,4 @@ This release-identity repair binds the unchanged replication payload to the exac
 - SI V1.5: `466d7f24aa1af36955e29f678e26b51c2e0a1fcefbcace139cdb548a75717724`
 - Highlights V1.2: `48b43b9db9b17d0e502b34af5adfd5bffb56cb9e53b06220cd15e04a967f4e1b`
 
-The V0.2.1 Zenodo version DOI is pending publication of the corresponding GitHub release. The previous V0.2.0 DOI remains `10.5281/zenodo.22879998`.
+The V0.2.1 Zenodo version DOI is `10.5281/zenodo.22884399`. The previous V0.2.0 DOI remains `10.5281/zenodo.22879998`.
