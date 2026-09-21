@@ -1,0 +1,10 @@
+{
+  "release_surface": "public",
+  "package": "AIDO-MOAT-WH Array Replication Package",
+  "version": "0.2.0",
+  "repository": "https://github.com/kensinro/AIDO-MOAT-WH-Array-Replication",
+  "manuscript": "Evidence-Bounded Supervisory Diagnosis of Compositional Failures in Modular Software Systems",
+  "public_access_date": "2026-09-22",
+  "license_state": "ALL_RIGHTS_RESERVED_PUBLIC_VERIFICATION",
+  "doi": "PENDING"
+}
