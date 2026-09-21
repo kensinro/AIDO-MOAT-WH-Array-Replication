@@ -1,0 +1,10 @@
+{
+  "protocol": "AIDO-MOAT-WH1.X-GATE-3D.2",
+  "status": "CONFIRMATORY_RESULTS_FROZEN",
+  "prediction_bundle_sha256": "5d0cc805eefb353935b5b277f62610850f0f23e1e4a11bd64014b231d43e09f5",
+  "gold_mapping_sha256": "7a2431b7163809bc6abb9a38daf54fef1e4b7cccf37f35a50d30a9d7b3d281cc",
+  "result_json_sha256": "ffb6f9a1d9d82782b4afc9ed6eaf935cdb1e8ef85b814ce06a66fb294dd703db",
+  "case_score_csv_sha256": "8af4f019135e6197bee54dab3d6471e99a8676884beb9eefedf9e3a9debcadd3",
+  "report_sha256": "e4047d9079462008d01e390b6c64d61762850392603d80e1b786c83c56ea0fc4",
+  "post_gold_tuning_permitted": false
+}
