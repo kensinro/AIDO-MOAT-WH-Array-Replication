@@ -1,0 +1,1824 @@
+[
+  {
+    "case_id": "P3B-H7Q2",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94000
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.97
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.705
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.982
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.974
+      }
+    },
+    "provenance": {
+      "configuration_hash": "af7cbdb0644edad1e39b53ad92f3baea5b6deb9351d94356773206ca62533402",
+      "seed": 94000,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-C4M9",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94001
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.994
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.86
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9975
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.974
+      }
+    },
+    "provenance": {
+      "configuration_hash": "510f7fe405811a75764c715654254c257ff56152fbad485eea896e1b58be5239",
+      "seed": 94001,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-V8K1",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94002
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.003
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.994
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.705
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9975
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.974
+      }
+    },
+    "provenance": {
+      "configuration_hash": "34931886568821e0ef202b0d41ecede7a096368971584fa4671eba056c2ba5a5",
+      "seed": 94002,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-R2D6",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94003
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.994
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.705
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.975
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.974
+      }
+    },
+    "provenance": {
+      "configuration_hash": "1c9788a3cbfe18c00b22bc2e08f5919c1e801b468034acf22db69e39dfaa5967",
+      "seed": 94003,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-Z5N3",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94004
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [
+      {
+        "inspection_id": "I_BRANCH_ORIGIN_TRACE",
+        "purpose": "Resolve which upstream branch generated the merge-level anomaly",
+        "target": "N40_FUSE"
+      }
+    ],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9865
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.808
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.976
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.973
+      }
+    },
+    "provenance": {
+      "configuration_hash": "8c1a8a75e318d7b844f65a85ae949f7f641f22c2242cf34e31919f8a890f9860",
+      "seed": 94004,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-A9T4",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94005
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [
+      {
+        "inspection_id": "I_BRANCH_ORIGIN_TRACE",
+        "purpose": "Resolve which upstream branch generated the merge-level anomaly",
+        "target": "N40_FUSE"
+      }
+    ],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9867
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.806
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.976
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.973
+      }
+    },
+    "provenance": {
+      "configuration_hash": "f54cd77d4a6e26bed4291ecf18a5d60247080f10297b19ecf8f23aec675e8e9e",
+      "seed": 94005,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-J3W8",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94006
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [
+      {
+        "inspection_id": "I_BRANCH_ORIGIN_TRACE",
+        "purpose": "Resolve which upstream branch generated the merge-level anomaly",
+        "target": "N40_FUSE"
+      }
+    ],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9869
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.804
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.976
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.973
+      }
+    },
+    "provenance": {
+      "configuration_hash": "89768332129e942e8d2cb00ac216ec004be481ecf88044554b4214c4058c4099",
+      "seed": 94006,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-M6P1",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94007
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [
+      {
+        "inspection_id": "I_BRANCH_ORIGIN_TRACE",
+        "purpose": "Resolve which upstream branch generated the merge-level anomaly",
+        "target": "N40_FUSE"
+      }
+    ],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9871000000000001
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.802
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.976
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.973
+      }
+    },
+    "provenance": {
+      "configuration_hash": "c8005e2b2e735f5f0dd1741f68cc069f75a862190828e45b96fe7ef9b01c72be",
+      "seed": 94007,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-X2L7",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94008
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.642
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9855
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.604
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9905
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.979
+      }
+    },
+    "provenance": {
+      "configuration_hash": "cd7686b7127ef73f5b3e7a110891cc99419a61705caba8ac4ac9bb963073b107",
+      "seed": 94008,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-Q8F5",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94009
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.644
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9857
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.607
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9907
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.98
+      }
+    },
+    "provenance": {
+      "configuration_hash": "73814825b45d6e0a2199c0aa481b2e0aadde3670776d40802a4f9b0defea508d",
+      "seed": 94009,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-B4R9",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94010
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.646
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9859
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.61
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9909
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.981
+      }
+    },
+    "provenance": {
+      "configuration_hash": "f0eddcb1373cadd7feb222bd4fef6039f817af0b16be975c65f99ab496ef0c23",
+      "seed": 94010,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-T1C6",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94011
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.648
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.9861000000000001
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.613
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9911000000000001
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.982
+      }
+    },
+    "provenance": {
+      "configuration_hash": "c770bce2fed3559e1695501e1e19161fb6b4bf583ca2717f2164b74fc3835bf9",
+      "seed": 94011,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-K7V3",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94012
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.59
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.994
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.85
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9975
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.99
+      }
+    },
+    "provenance": {
+      "configuration_hash": "4215bfb041ebdf7289b7d0bd2c8c02e6ea681342f6d661e9d987ea4d1332079d",
+      "seed": 94012,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-D5X8",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94013
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.002
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.972
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.705
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.9975
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.99
+      }
+    },
+    "provenance": {
+      "configuration_hash": "37893005edeb6baf9eb755f4186a73d0c30dd3de664bf7c89c79368ba6f14833",
+      "seed": 94013,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-N2J4",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94014
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.972
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.705
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.98
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.99
+      }
+    },
+    "provenance": {
+      "configuration_hash": "404215bb1ae94736a5ab0c09deb2b4e529ad61d5b35ca1d1f5e24413938d405c",
+      "seed": 94014,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-W9M6",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94015
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.994
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.85
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.98
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.99
+      }
+    },
+    "provenance": {
+      "configuration_hash": "44f332ddf7739780d05d798c75de24475fae431dfa452e3ba3ede66e40d505e5",
+      "seed": 94015,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-F3A7",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94016
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.994
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.705
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.981
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.976
+      }
+    },
+    "provenance": {
+      "configuration_hash": "0b80ed2de37c73549bc132f652073b72f5398340e956d5beee1de81c0bbe84ed",
+      "seed": 94016,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": false,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-L6Q2",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94017
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": true,
+      "missing_observables": []
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0,
+        "spectral_purity": 0.994
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.705
+      },
+      "N40_FUSE": {
+        "fusion_consistency": 0.979
+      },
+      "N50_DECIDE": {
+        "decision_score": 0.972
+      }
+    },
+    "provenance": {
+      "configuration_hash": "4875e6069ea12faf79546abce69ad3a8c80ea174d547de945bcf223b31cd0062",
+      "seed": 94017,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": false
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-S8K5",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94018
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": false,
+      "missing_observables": [
+        "fusion_consistency",
+        "spectral_purity",
+        "transient_metric"
+      ]
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {
+        "center_residual": 0.0
+      },
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0
+      },
+      "N30_TRANSIENT": {},
+      "N40_FUSE": {},
+      "N50_DECIDE": {
+        "decision_score": 0.97
+      }
+    },
+    "provenance": {
+      "configuration_hash": "6248beeac76d4e34d3dc1e974c60de90f58dced4e8cfc9cce97dd860876af69b",
+      "seed": 94018,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  },
+  {
+    "case_id": "P3B-G4T1",
+    "context": {
+      "acceptance_profile_id": "P3B-SIGNAL-ACCEPTANCE-V1",
+      "native_configuration": {
+        "n_samples": 256,
+        "nominal_frequency_hz": 8.0,
+        "protocol": "P3B2",
+        "sample_rate_hz": 128.0,
+        "seed": 94019
+      },
+      "reference_id": "P3B1-REFERENCE-ENVELOPE-V1"
+    },
+    "evidence_completeness": {
+      "complete": false,
+      "missing_observables": [
+        "center_residual",
+        "fusion_consistency",
+        "spectral_purity"
+      ]
+    },
+    "inspection_options": [],
+    "observations": {
+      "N00_CAPTURE": {
+        "capture_rms": 0.714
+      },
+      "N10_CENTER": {},
+      "N20_SPECTRAL": {
+        "peak_freq": 8.0
+      },
+      "N30_TRANSIENT": {
+        "transient_metric": 0.705
+      },
+      "N40_FUSE": {},
+      "N50_DECIDE": {
+        "decision_score": 0.972
+      }
+    },
+    "provenance": {
+      "configuration_hash": "e07f916e75593e9b023fac42d600b22363907d53e3ac18f3648fa788c5456b24",
+      "seed": 94019,
+      "source": "P3B2 frozen foreign challenge instantiation"
+    },
+    "structural_observations": {
+      "merge_order_invariant": true,
+      "runtime_parent_set_match": true
+    },
+    "system_manifest": {
+      "graph_type": "branched_DAG_with_merge",
+      "nodes": [
+        {
+          "id": "N00_CAPTURE",
+          "parents": []
+        },
+        {
+          "id": "N10_CENTER",
+          "parents": [
+            "N00_CAPTURE"
+          ]
+        },
+        {
+          "id": "N20_SPECTRAL",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N30_TRANSIENT",
+          "parents": [
+            "N10_CENTER"
+          ]
+        },
+        {
+          "id": "N40_FUSE",
+          "parents": [
+            "N20_SPECTRAL",
+            "N30_TRANSIENT"
+          ]
+        },
+        {
+          "id": "N50_DECIDE",
+          "parents": [
+            "N40_FUSE"
+          ]
+        }
+      ],
+      "pipeline_id": "FOREIGN-SIGNAL-FUSION-DAG-V1"
+    }
+  }
+]
