@@ -1,0 +1,27 @@
+{
+  "package_target": "V0.2.0-ARRAY",
+  "inherits_frozen_baseline": "V0.1.2",
+  "protocol_4": {
+    "denominator": 90,
+    "exact_source_entitlement": "2/90",
+    "selective_correctness": "2/2",
+    "false_exact_source_entitlement": "0/90",
+    "underdetermined": "83/90",
+    "abstain": "5/90",
+    "topology_underdetermined": "90/90",
+    "k2": "DISABLED"
+  },
+  "reconstructibility": {
+    "canonical_edge_cases": "20/20",
+    "property_regression": "9216/9216",
+    "normalization_checks": "18/18",
+    "second_path_cases": "64/64",
+    "load_bearing_fields": 14,
+    "historical_implementation_equivalence": "HOLD"
+  },
+  "claim_boundary": {
+    "protocol_4_broad_rca_accuracy": "NOT_CLAIMED",
+    "production_effectiveness": "NOT_CLAIMED",
+    "historical_code_identity": "NOT_CLAIMED"
+  }
+}
