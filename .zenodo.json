@@ -1,0 +1,22 @@
+{
+  "creators": [
+    {
+      "name": "Kong, Sin Guan",
+      "type": "Researcher"
+    }
+  ],
+  "title": "AIDO-MOAT-WH Array Replication Package",
+  "description": "Public replication package for Evidence-Bounded Supervisory Diagnosis of Compositional Failures in Modular Software Systems. Public access supports scholarly verification and manuscript reproducibility; reuse rights remain governed by the repository LICENSE.",
+  "version": "0.2.0",
+  "upload_type": "software",
+  "language": "eng",
+  "keywords": [
+    "software reliability",
+    "fault diagnosis",
+    "fault localization",
+    "reproducibility",
+    "provenance",
+    "human gate",
+    "modular software systems"
+  ]
+}
