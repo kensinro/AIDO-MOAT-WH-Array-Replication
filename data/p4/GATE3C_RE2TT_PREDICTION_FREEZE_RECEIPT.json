@@ -1,0 +1,17 @@
+{
+  "protocol": "AIDO-MOAT-WH1.X-GATE-3C",
+  "status": "GATE3C_RE2TT_PREDICTIONS_FROZEN_PRE_GOLD",
+  "gold_read": false,
+  "n_cases": 90,
+  "prediction_bundle_sha256": "5d0cc805eefb353935b5b277f62610850f0f23e1e4a11bd64014b231d43e09f5",
+  "archive_sha256": "6706311d2c00d9f5a335f73f6a11f4ad4417522abed7e7ee8c88b8e898088805",
+  "gate3b_predictor_contract_sha256": "7455dfe4e23e8c2bd2b9c524cdbee44c9b627ef017cddcfc6dddfa371e222f93",
+  "gate3b1_conformance_freeze_receipt_sha256": "9b3a97a4c7125c2f344887aefc68f7bed17b9384dadf04ea0f9d480be58bd2ef",
+  "state_counts": {
+    "UNDERDETERMINED": 83,
+    "EXACT_SOURCE_ENTITLED": 2,
+    "ABSTAIN": 5
+  },
+  "post_prediction_tuning_permitted": false,
+  "next_gate": "GATE3D_GOLD_OPEN_AND_CONFIRMATORY_SCORE_ONLY"
+}
