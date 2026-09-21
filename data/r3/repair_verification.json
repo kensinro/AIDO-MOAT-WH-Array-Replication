@@ -1,0 +1,15 @@
+{
+  "trial_id": "P1J-F13-R13-01",
+  "repair_id": "R13-01",
+  "closure_state": "RESOLVED",
+  "acceptance_checks": {
+    "m02_centering_invariant_pass": true,
+    "m03_score_mean_in_envelope": true,
+    "m03_score_max_in_envelope": true,
+    "structural_contradiction_count_zero": true,
+    "production_state_modified_false": true,
+    "source_artifact_overwritten_false": true
+  },
+  "protected_artifacts_unchanged": true,
+  "promotion_state": "NOT_PROMOTED_TO_PRODUCTION"
+}
