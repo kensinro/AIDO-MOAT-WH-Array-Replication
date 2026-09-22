@@ -74,5 +74,19 @@
     "si_sha256": "1b2e8e6c5734a2b0219ce15aa2781b26b63002e0138f49d66a7a086756e658f8",
     "highlights_file": "ARRAY_HIGHLIGHTS_V1.2_PORTAL_READY_2026-09-22.docx",
     "note": "Formatting-only derivative after published v0.2.1: heading bold/alignment normalization, caption/table-note styling, SI table typography/header normalization, and reference left/hanging alignment. Paragraph text, table text, figures, scientific results, DOI, and claim boundaries unchanged."
+  },
+  "post_release_submission_derivative": {
+    "main_file": "WH_MAIN_ARRAY_V1.8_CAPTION_JUSTIFIED_FINAL_CANDIDATE_2026-09-22.docx",
+    "main_sha256": "30ea34e36d70fe61b5489910b0f9f0a7d579eae3ada3beef620ae3ffedc397ca",
+    "si_file": "WH_SI_ARRAY_V1.8_MAIN_BINDING_FORMAT_FINAL_CANDIDATE_2026-09-22.docx",
+    "si_sha256": "ead86e12e9192bc3a403ddc25a67e103e6d94fcdadbbcf56f1fbb18f2a38a3a4",
+    "highlights_file": "ARRAY_HIGHLIGHTS_V1.2_PORTAL_READY_2026-09-22.docx",
+    "relation_to_v0_2_1": "FORMAT_ONLY_POST_RELEASE_DERIVATIVE",
+    "scientific_state_mutation": false,
+    "changes": [
+      "Figure captions 1-5 changed from left-aligned to justified.",
+      "SI current-Main binding updated from V1.6 to exact V1.8 filename and SHA-256.",
+      "No scientific result, denominator, endpoint, prediction, Gold mapping, claim ceiling, or evidence object changed."
+    ]
   }
 }
