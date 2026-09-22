@@ -88,5 +88,14 @@
       "SI current-Main binding updated from V1.6 to exact V1.8 filename and SHA-256.",
       "No scientific result, denominator, endpoint, prediction, Gold mapping, claim ceiling, or evidence object changed."
     ]
+  },
+  "post_release_submission_derivative_v1_9": {
+    "status": "FORMAT_AND_SUBMISSION_PACKAGE_ONLY_NO_SCIENTIFIC_MUTATION",
+    "main_file": "WH_MAIN_ARRAY_V1.9_SUBMISSION_READY_2026-09-22.docx",
+    "main_sha256": "e85cf635de263e7020a1997f05f6f6f8883fd49c747b21838d120057e37de653",
+    "si_file": "WH_SI_ARRAY_V1.9_SUBMISSION_READY_2026-09-22.docx",
+    "si_sha256": "315eb8a384dc97eefb41d9a395b5b56de2d5617f798a62b0871db2f0899e0520",
+    "format_basis": "Elsevier editable-source convention: single-column/simple layout; no full justification",
+    "scientific_state_mutation": false
   }
 }
